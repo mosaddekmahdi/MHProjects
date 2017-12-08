@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser.Navigate</Name>
+    <Description>Navigate to http://www.facebook.com</Description>
+    <StartTime>2016-11-19 09:00:10</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <Operation>Navigate</Operation>
+        <OperationData><![CDATA[Navigate to http://www.facebook.com]]></OperationData>
+      </TestObject>
+      <IconKey>64e55c73953a49f6823328e34f8c7973</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser.Sync</Name>
+    <Description />
+    <StartTime>2016-11-19 09:00:13</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>64e55c73953a49f6823328e34f8c7973</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>StartUp Browser</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2016-11-19 09:00:10</StartTime>
+    <Duration>3</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>64e55c73953a49f6823328e34f8c7973</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>email</Name>
+    <ErrorText>Cannot find the "email" object's parent "Facebook - Log In or Sign" (class Browser).
+Verify that parent properties match an object currently displayed in your application.</ErrorText>
+    <Description>Cannot&amp;nbsp;find&amp;nbsp;the&amp;nbsp;"email"&amp;nbsp;object's&amp;nbsp;parent&amp;nbsp;"Facebook&amp;nbsp;-&amp;nbsp;Log&amp;nbsp;In&amp;nbsp;or&amp;nbsp;Sign"&amp;nbsp;(class&amp;nbsp;Browser).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;parent&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Browser&lt;br&gt;CreationTime = 0&lt;br&gt;|Title = Facebook - Log In or Sign Up - Internet Explorer&lt;br&gt;openurl = https://www.facebook.com&lt;br&gt;opentitle = Facebook - Log In or Sign Up&lt;br&gt;Opened By Testing Tool = -1&lt;br&gt;number of tabs = 1&lt;br&gt;Name = Facebook - Log In or Sign Up&lt;br&gt;</Description>
+    <StartTime>2016-11-19 09:00:54</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[email]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;find&nbsp;the&nbsp;"email"&nbsp;object's&nbsp;parent&nbsp;"Facebook&nbsp;-&nbsp;Log&nbsp;In&nbsp;or&nbsp;Sign"&nbsp;(class&nbsp;Browser).<br/>Verify&nbsp;that&nbsp;parent&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>10560490732f4a7f88495e0b120fee09</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\46314e16-0814-4f9b-88ef-5b07f2773bbe.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2016-11-19 09:00:59</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>fd5c4d0f507d4349947dc6633a55d82b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Facebook - Log In or Sign</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2016-11-19 09:00:56</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>64e55c73953a49f6823328e34f8c7973</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-19 09:00:13</StartTime>
+    <Duration>46</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>5609cfa6de664a0ca9a9b7321ade3838</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-11-19 09:00:10</StartTime>
+    <Duration>49</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>7ee792e3df424d22b94fb54d5a8ab2df</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Path>
+        <Version>54.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://www.facebook.com</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest2</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2016-11-19 09:00:09</StartTime>
+    <Duration>50</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>c20fbef4544f46b0bdc28176b85729d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>zahid</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3970</TotalMemory>
+      <HostName>LAPTOP-VE86FS4A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res3</ResultName>
+    <RunStartTime>2016-11-19 09:00:09</RunStartTime>
+    <Timezone>-08:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

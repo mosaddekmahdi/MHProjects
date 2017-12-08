@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="CommitDialog.authorValues">
+		<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.reflog.RefSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+		<item value="390" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+		<item value="390" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.repository.CreateBranchPage$SourceSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="-111" key="DIALOG_Y_ORIGIN"/>
+		<item value="-7" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item value="1138" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="199" key="DIALOG_HEIGHT"/>
+		<item value="231" key="DIALOG_Y_ORIGIN"/>
+		<item value="90" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item value="642" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="641" key="DIALOG_HEIGHT"/>
+		<item value="-176" key="DIALOG_Y_ORIGIN"/>
+		<item value="-55" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.CheckoutDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="484" key="DIALOG_HEIGHT"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+		<item value="390" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
+		<item value="538" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="679" key="DIALOG_HEIGHT"/>
+		<item value="60" key="DIALOG_Y_ORIGIN"/>
+		<item value="759" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\shali_000\workspace\LearnJava\JAXRSJsonCRUD\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\AngularjsJAXRSCRUD\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\TestMart\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\Hibernate_Maven\.git">
+			<item value="true"/>
+			<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+			<item value="Inital commit"/>
+			<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+			<item value="1a0f79fe71e3c191d8024d624a0d0253be7e5175"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\FirstHibernateProj\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\advanced-jaxrs-05\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\git\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\HelloWorldServletProject\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\AngularjsJAXRSCRUDExample\.git">
+			<item value="empty"/>
+		</list>
+		<list key="C:\Users\shali_000\workspace\LearnJava\advanced-jaxrs-03\.git">
+			<item value="false"/>
+			<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;Setting the path to &quot;test&quot; instead of date/{dateParamter}"/>
+			<item value="Saleem Halipoto &lt;shalipoto@gmail.com&gt;"/>
+			<item value="840ec73eb1622f020175e6ab892fc27c8947d8f6"/>
+		</list>
+	</section>
+	<section name="GitCommitSearchPage">
+		<item value="1" key="HISTORY_SIZE"/>
+		<section name="HISTORY0">
+			<section name="searchSection">
+				<item value="1" key="repositoryCount"/>
+				<item value="C:\Users\shali_000\workspace\LearnJava\AngularjsJAXRSCRUD\.git" key="repository0"/>
+				<item value="true" key="matchAuthor"/>
+				<item value="false" key="regexSearch"/>
+				<item value="true" key="matchMessage"/>
+				<item value="true" key="matchParents"/>
+				<item value="true" key="ignoreCase"/>
+				<item value="false" key="allBranches"/>
+				<item value="true" key="matchCommit"/>
+				<item value="true" key="matchTree"/>
+				<item value="JAXRSJsonCRUDExample" key="textPattern"/>
+				<item value="true" key="matchCommitter"/>
+			</section>
+		</section>
+	</section>
+</section>

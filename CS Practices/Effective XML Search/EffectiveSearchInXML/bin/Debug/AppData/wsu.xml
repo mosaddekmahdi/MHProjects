@@ -1,0 +1,5615 @@
+<?xml version='1.0' ?>
+<!DOCTYPE root SYSTEM "http://www.cs.washington.edu/research/projects/xmltk/xmldata/data/courses/wsu.dtd">
+<root>
+  <course>
+    <footnote></footnote>
+    <sln>10637</sln>
+    <prefix>ACCTG</prefix>
+    <crs>230</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INT FIN ACCT</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>7:45</start>
+      <end>9</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>230</room>
+    </place>
+    <instructor>B. MCELDOWNEY</instructor>
+    <limit>0112</limit>
+    <enrolled>0108</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>10751</sln>
+    <prefix>ACCTG</prefix>
+    <crs>231</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>INT MAN ACCT</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>320</room>
+    </place>
+    <instructor>J. MCELDOWNEY</instructor>
+    <limit>0070</limit>
+    <enrolled>0069</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>11940</sln>
+    <prefix>AGTM</prefix>
+    <crs>305</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>AG MACH SYST</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>260</room>
+    </place>
+    <instructor>DURFEY</instructor>
+    <limit>0040</limit>
+    <enrolled>0019</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>23960</sln>
+    <prefix>DEC S</prefix>
+    <crs>800</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DOCT DISS EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25403</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor>FORT</instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25411</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0058</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25429</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25437</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0058</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25445</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>05</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25452</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>06</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0058</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25460</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>07</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor>JOERDING</instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25478</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>08</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0059</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25486</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>09</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>11957</sln>
+    <prefix>AGTM</prefix>
+    <crs>305</crs>
+    <lab>L</lab>
+    <sect>01</sect>
+    <title>AG MACH SYST</title>
+    <credit></credit>
+    <days>M</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>114</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25494</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>10</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25502</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>11</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0059</limit>
+    <enrolled>0059</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25510</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>12</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25528</sln>
+    <prefix>ECON</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>13</sect>
+    <title>[S] FUND OF MICR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>234</room>
+    </place>
+    <instructor></instructor>
+    <limit>0048</limit>
+    <enrolled>0050</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25577</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor>INABA</instructor>
+    <limit>0060</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25585</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0056</limit>
+    <enrolled>0050</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25593</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0052</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25601</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor>JOERDING</instructor>
+    <limit>0060</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25619</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>05</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0055</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25627</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>06</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>11965</sln>
+    <prefix>AGTM</prefix>
+    <crs>305</crs>
+    <lab>L</lab>
+    <sect>02</sect>
+    <title>AG MACH SYST</title>
+    <credit></credit>
+    <days>TU</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>114</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0007</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25635</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>07</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0058</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25643</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>08</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0056</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25650</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>09</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0058</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25668</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>10</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25676</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>11</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0061</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25684</sln>
+    <prefix>ECON</prefix>
+    <crs>102</crs>
+    <lab></lab>
+    <sect>12</sect>
+    <title>[S] FUND OF MACR</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor></instructor>
+    <limit>0060</limit>
+    <enrolled>0060</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25692</sln>
+    <prefix>ECON</prefix>
+    <crs>198</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[S] ECON HONORS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>THOM</bldg>
+      <room>21</room>
+    </place>
+    <instructor></instructor>
+    <limit>0030</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25700</sln>
+    <prefix>ECON</prefix>
+    <crs>198</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>[S] ECON HONORS</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>301</room>
+    </place>
+    <instructor>ROSENMAN</instructor>
+    <limit>0030</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25718</sln>
+    <prefix>ECON</prefix>
+    <crs>198</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>[S] ECON HONORS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>COLL</bldg>
+      <room>135</room>
+    </place>
+    <instructor>HALLAGAN</instructor>
+    <limit>0030</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>75242</sln>
+    <prefix>ECON</prefix>
+    <crs>198</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>[S] ECON HONORS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>211</room>
+    </place>
+    <instructor>KUZYK</instructor>
+    <limit>0030</limit>
+    <enrolled>0028</enrolled>
+  </course>
+
+  <course>
+    <footnote>I</footnote>
+    <sln>11973</sln>
+    <prefix>AGTM</prefix>
+    <crs>315</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>IR SY&amp;WT MGT</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>8:30</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>BOLL</instructor>
+    <limit>0030</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25726</sln>
+    <prefix>ECON</prefix>
+    <crs>301</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>FIRM MKT POL</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>FULM</bldg>
+      <room>201</room>
+    </place>
+    <instructor>KRAUTKRAEMER</instructor>
+    <limit>0063</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25734</sln>
+    <prefix>ECON</prefix>
+    <crs>301</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>FIRM MKT POL</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>307</room>
+    </place>
+    <instructor></instructor>
+    <limit>0058</limit>
+    <enrolled>0057</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25742</sln>
+    <prefix>ECON</prefix>
+    <crs>301</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>FIRM MKT POL</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>320</room>
+    </place>
+    <instructor></instructor>
+    <limit>0055</limit>
+    <enrolled>0047</enrolled>
+  </course>
+
+  <course>
+    <footnote>V</footnote>
+    <sln>25759</sln>
+    <prefix>ECON</prefix>
+    <crs>301</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>FIRM MKT POL</title>
+    <credit>3.0</credit>
+    <days>M</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>320</room>
+    </place>
+    <instructor>BATINA</instructor>
+    <limit>0060</limit>
+    <enrolled>0062</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25783</sln>
+    <prefix>ECON</prefix>
+    <crs>311</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ECONOMETRICS</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>14:50</start>
+      <end>16:05</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>121</room>
+    </place>
+    <instructor>LI</instructor>
+    <limit>0024</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25791</sln>
+    <prefix>ECON</prefix>
+    <crs>320</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MONEY/BANK</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>230</room>
+    </place>
+    <instructor>CLARK</instructor>
+    <limit>0080</limit>
+    <enrolled>0083</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25817</sln>
+    <prefix>ECON</prefix>
+    <crs>330</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ECN OF SPORT</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>434</room>
+    </place>
+    <instructor>FORT</instructor>
+    <limit>0075</limit>
+    <enrolled>0075</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25833</sln>
+    <prefix>ECON</prefix>
+    <crs>350</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LABOR ECON</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>413</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0053</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25882</sln>
+    <prefix>ECON</prefix>
+    <crs>401</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MACRO EC AN</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>226</room>
+    </place>
+    <instructor>PEREZ</instructor>
+    <limit>0035</limit>
+    <enrolled>0033</enrolled>
+  </course>
+
+  <course>
+    <footnote>I</footnote>
+    <sln>25890</sln>
+    <prefix>ECON</prefix>
+    <crs>402</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>HIST EC THOT</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>12:30</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>MORR</bldg>
+      <room>214</room>
+    </place>
+    <instructor>DINOOTO</instructor>
+    <limit>0020</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>11981</sln>
+    <prefix>AGTM</prefix>
+    <crs>315</crs>
+    <lab>L</lab>
+    <sect>01</sect>
+    <title>IR SY&amp;WT MGT</title>
+    <credit></credit>
+    <days>TU</days>
+    <times>
+      <start>14:30</start>
+      <end>17:20</end>
+    </times>
+    <place>
+      <bldg>JML</bldg>
+      <room>42</room>
+    </place>
+    <instructor></instructor>
+    <limit>0030</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25924</sln>
+    <prefix>ECON</prefix>
+    <crs>416</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>COMP EC SYS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>409</room>
+    </place>
+    <instructor>HALLAGAN</instructor>
+    <limit>0035</limit>
+    <enrolled>0029</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25957</sln>
+    <prefix>ECON</prefix>
+    <crs>450</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>COLL BARGAIN</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>211</room>
+    </place>
+    <instructor>LEIGH</instructor>
+    <limit>0030</limit>
+    <enrolled>0018</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25981</sln>
+    <prefix>ECON</prefix>
+    <crs>470</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>INTERL TRADE</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>204</room>
+    </place>
+    <instructor>LOWINGER</instructor>
+    <limit>0028</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25999</sln>
+    <prefix>ECON</prefix>
+    <crs>472</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ECON DEVELOP</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>121</room>
+    </place>
+    <instructor>NZIRAMASANGA</instructor>
+    <limit>0015</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26021</sln>
+    <prefix>ECON</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ECON INTERN</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26039</sln>
+    <prefix>ECON</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26047</sln>
+    <prefix>ECON</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26054</sln>
+    <prefix>ECON</prefix>
+    <crs>500</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MACRO ANLYS</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>126</room>
+    </place>
+    <instructor>PEREZ</instructor>
+    <limit>0024</limit>
+    <enrolled>0016</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26062</sln>
+    <prefix>ECON</prefix>
+    <crs>501</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MICRO EC TH</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>127</room>
+    </place>
+    <instructor>KRAUTKRAEMER</instructor>
+    <limit>0024</limit>
+    <enrolled>0021</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26070</sln>
+    <prefix>ECON</prefix>
+    <crs>510</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MATH MODELS</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>16:15</start>
+      <end>17:30</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>211</room>
+    </place>
+    <instructor>INABA</instructor>
+    <limit>0015</limit>
+    <enrolled>0006</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>11999</sln>
+    <prefix>AGTM</prefix>
+    <crs>331</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>EL PW SYS AG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>111</room>
+    </place>
+    <instructor>SYMONS</instructor>
+    <limit>0050</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26104</sln>
+    <prefix>ECON</prefix>
+    <crs>540</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ADV PUB FIN</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>12</start>
+      <end>13:15</end>
+    </times>
+    <place>
+      <bldg>JSNT</bldg>
+      <room>227</room>
+    </place>
+    <instructor>BATINA</instructor>
+    <limit>0015</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26120</sln>
+    <prefix>ECON</prefix>
+    <crs>572</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>TH INST DEV</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>14:50</start>
+      <end>16:05</end>
+    </times>
+    <place>
+      <bldg>JSNT</bldg>
+      <room>225</room>
+    </place>
+    <instructor>NZIRAMASANGA</instructor>
+    <limit>0015</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>77727</sln>
+    <prefix>ECON</prefix>
+    <crs>590</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>NAT RES SCAR</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>409</room>
+    </place>
+    <instructor>KRAUTKRAEMER</instructor>
+    <limit>0015</limit>
+    <enrolled>0005</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26153</sln>
+    <prefix>ECON</prefix>
+    <crs>600</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PR/IND ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0010</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26161</sln>
+    <prefix>ECON</prefix>
+    <crs>600</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>SP PR/IND ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26179</sln>
+    <prefix>ECON</prefix>
+    <crs>700</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST TH EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26187</sln>
+    <prefix>ECON</prefix>
+    <crs>702</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST DIR ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26195</sln>
+    <prefix>ECON</prefix>
+    <crs>800</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DOCT DISS EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>23978</sln>
+    <prefix>E A</prefix>
+    <crs>300</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>EDUC ABROAD</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0090</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26203</sln>
+    <prefix>ED AD</prefix>
+    <crs>389</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LEADRSHP DEV</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>7</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0028</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12005</sln>
+    <prefix>AGTM</prefix>
+    <crs>331</crs>
+    <lab>L</lab>
+    <sect>01</sect>
+    <title>EL PW SYS AG</title>
+    <credit></credit>
+    <days>W</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>111</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0005</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26229</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PEER LEADER</title>
+    <credit>V</credit>
+    <days>TH</days>
+    <times>
+      <start>14:50</start>
+      <end>16:05</end>
+    </times>
+    <place>
+      <bldg>BRYN</bldg>
+      <room>402</room>
+    </place>
+    <instructor>O'CONNER</instructor>
+    <limit>0050</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26237</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>PEER LEADER</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26245</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>PEER LEADER</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26252</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>PEER LEADER</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0050</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>85035</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>07</sect>
+    <title>PEER LEADER</title>
+    <credit>02.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>JORGENSON</instructor>
+    <limit>0050</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>85043</sln>
+    <prefix>ED AD</prefix>
+    <crs>497</crs>
+    <lab></lab>
+    <sect>08</sect>
+    <title>PEER LEADER</title>
+    <credit>02.0</credit>
+    <days>TU</days>
+    <times>
+      <start>14:00</start>
+      <end>15:30</end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>THOMAS</instructor>
+    <limit>0050</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26260</sln>
+    <prefix>ED AD</prefix>
+    <crs>498</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LEADER PRACT</title>
+    <credit>03.0</credit>
+    <days>W</days>
+    <times>
+      <start>14:10</start>
+      <end>16</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>312</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26294</sln>
+    <prefix>ED AD</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26302</sln>
+    <prefix>ED AD</prefix>
+    <crs>507</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SOC FND EDUC</title>
+    <credit>3.0</credit>
+    <days>M</days>
+    <times>
+      <start>16:10</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>247</room>
+    </place>
+    <instructor>GARDINER</instructor>
+    <limit>0020</limit>
+    <enrolled>0019</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>26310</sln>
+    <prefix>ED AD</prefix>
+    <crs>510</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>IMPROV INSTR</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>16:15</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>PARKAY</instructor>
+    <limit>0020</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12013</sln>
+    <prefix>AGTM</prefix>
+    <crs>331</crs>
+    <lab>L</lab>
+    <sect>02</sect>
+    <title>EL PW SYS AG</title>
+    <credit></credit>
+    <days>TH</days>
+    <times>
+      <start>9:10</start>
+      <end>12</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>111</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0010</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65458</sln>
+    <prefix>ED AD</prefix>
+    <crs>516</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INSTR LDRSHP</title>
+    <credit>V</credit>
+    <days>W</days>
+    <times>
+      <start>16:15</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>223</room>
+    </place>
+    <instructor>PARKAY</instructor>
+    <limit>0020</limit>
+    <enrolled>0007</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>82107</sln>
+    <prefix>ED AD</prefix>
+    <crs>518</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>EDUC TECHNOL</title>
+    <credit>3.0</credit>
+    <days>M</days>
+    <times>
+      <start>19:10</start>
+      <end>22</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>55</room>
+    </place>
+    <instructor>CILLAY</instructor>
+    <limit>0020</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26344</sln>
+    <prefix>ED AD</prefix>
+    <crs>536</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INT QUAL RES</title>
+    <credit>3.0</credit>
+    <days>M</days>
+    <times>
+      <start>19:10</start>
+      <end>22</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>382</room>
+    </place>
+    <instructor>GARDINER</instructor>
+    <limit>0023</limit>
+    <enrolled>0020</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26351</sln>
+    <prefix>ED AD</prefix>
+    <crs>540</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ISS IN SPORT</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>382</room>
+    </place>
+    <instructor>ADAMS</instructor>
+    <limit>0020</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65466</sln>
+    <prefix>ED AD</prefix>
+    <crs>561</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ST DEV THRY</title>
+    <credit>3.0</credit>
+    <days>W</days>
+    <times>
+      <start>16:10</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>223</room>
+    </place>
+    <instructor>BETTAS</instructor>
+    <limit>0020</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26385</sln>
+    <prefix>ED AD</prefix>
+    <crs>565</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST PRAC SA</title>
+    <credit>3.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>BETTAS</instructor>
+    <limit>0020</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65482</sln>
+    <prefix>ED AD</prefix>
+    <crs>567</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LEAD CHANGE</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>16:10</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>312</room>
+    </place>
+    <instructor>WOLVERTON</instructor>
+    <limit>0020</limit>
+    <enrolled>0007</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26435</sln>
+    <prefix>ED AD</prefix>
+    <crs>577</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LAW PHYS ED</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>CARP</bldg>
+      <room>212</room>
+    </place>
+    <instructor>ADAMS</instructor>
+    <limit>0030</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65490</sln>
+    <prefix>ED AD</prefix>
+    <crs>579</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ADMIN H ED</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>19:10</start>
+      <end>22</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>382</room>
+    </place>
+    <instructor>PAVEL</instructor>
+    <limit>0020</limit>
+    <enrolled>0009</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>65508</sln>
+    <prefix>ED AD</prefix>
+    <crs>581</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>POLITICS-EDU</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>16:15</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>MICHAELIG</instructor>
+    <limit>0020</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12021</sln>
+    <prefix>AGTM</prefix>
+    <crs>331</crs>
+    <lab>L</lab>
+    <sect>03</sect>
+    <title>EL PW SYS AG</title>
+    <credit></credit>
+    <days>TH</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>111</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0006</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>26443</sln>
+    <prefix>ED AD</prefix>
+    <crs>582</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>POL FORM FD</title>
+    <credit>3.0</credit>
+    <days>W</days>
+    <times>
+      <start>19:15</start>
+      <end>22</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>WOLVERTON</instructor>
+    <limit>0025</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26450</sln>
+    <prefix>ED AD</prefix>
+    <crs>582</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>POL FORM FD</title>
+    <credit>3.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>RAY</instructor>
+    <limit>0050</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26476</sln>
+    <prefix>ED AD</prefix>
+    <crs>589</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LDR DEV SEM</title>
+    <credit>3.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>RAY</instructor>
+    <limit>0050</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26484</sln>
+    <prefix>ED AD</prefix>
+    <crs>590</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INTERNSHIP</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0007</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26492</sln>
+    <prefix>ED AD</prefix>
+    <crs>590</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>INTERNSHIP</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>RAY</instructor>
+    <limit>0050</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26500</sln>
+    <prefix>ED AD</prefix>
+    <crs>590</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>INTERNSHIP</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>RAY</instructor>
+    <limit>0050</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26526</sln>
+    <prefix>ED AD</prefix>
+    <crs>600</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PR/IND ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26534</sln>
+    <prefix>ED AD</prefix>
+    <crs>700</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST TH EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26542</sln>
+    <prefix>ED AD</prefix>
+    <crs>702</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST DIR ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26559</sln>
+    <prefix>ED AD</prefix>
+    <crs>800</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DOCT DISS EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0031</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12047</sln>
+    <prefix>AGTM</prefix>
+    <crs>403</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LAB TCHG TEC</title>
+    <credit>1.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26567</sln>
+    <prefix>EDPSY</prefix>
+    <crs>401</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CLS ASMT EL</title>
+    <credit>2.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>57</room>
+    </place>
+    <instructor></instructor>
+    <limit>0035</limit>
+    <enrolled>0031</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26575</sln>
+    <prefix>EDPSY</prefix>
+    <crs>401</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>CLS ASMT EL</title>
+    <credit>2.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>57</room>
+    </place>
+    <instructor></instructor>
+    <limit>0035</limit>
+    <enrolled>0037</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26617</sln>
+    <prefix>EDPSY</prefix>
+    <crs>402</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CLS ASMT SEC</title>
+    <credit>2.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>255</room>
+    </place>
+    <instructor></instructor>
+    <limit>0035</limit>
+    <enrolled>0032</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26625</sln>
+    <prefix>EDPSY</prefix>
+    <crs>402</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>CLS ASMT SEC</title>
+    <credit>2.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>255</room>
+    </place>
+    <instructor></instructor>
+    <limit>0035</limit>
+    <enrolled>0014</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26641</sln>
+    <prefix>EDPSY</prefix>
+    <crs>490</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INSTR PRACT</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26658</sln>
+    <prefix>EDPSY</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26666</sln>
+    <prefix>EDPSY</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26674</sln>
+    <prefix>EDPSY</prefix>
+    <crs>502</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>THEOR FOUNDT</title>
+    <credit>3.0</credit>
+    <days>W</days>
+    <times>
+      <start>16:10</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>382</room>
+    </place>
+    <instructor></instructor>
+    <limit>0032</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26682</sln>
+    <prefix>EDPSY</prefix>
+    <crs>505</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>RES METH I</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>17:10</start>
+      <end>20</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>221</room>
+    </place>
+    <instructor>WALSER</instructor>
+    <limit>0025</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26690</sln>
+    <prefix>EDPSY</prefix>
+    <crs>508</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>STATISTICS</title>
+    <credit>4.0</credit>
+    <days>M</days>
+    <times>
+      <start>17:10</start>
+      <end>21</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>234</room>
+    </place>
+    <instructor></instructor>
+    <limit>0030</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>10769</sln>
+    <prefix>ACCTG</prefix>
+    <crs>231</crs>
+    <lab></lab>
+    <sect>05</sect>
+    <title>INT MAN ACCT</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>276</room>
+    </place>
+    <instructor>RIEMAN</instructor>
+    <limit>0139</limit>
+    <enrolled>0132</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12054</sln>
+    <prefix>AGTM</prefix>
+    <crs>451</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SEMINAR</title>
+    <credit>1.0</credit>
+    <days>W</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>HULB</bldg>
+      <room>27</room>
+    </place>
+    <instructor>DURFEY</instructor>
+    <limit>0020</limit>
+    <enrolled>0009</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>85076</sln>
+    <prefix>EDPSY</prefix>
+    <crs>519</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PRAC COL IN</title>
+    <credit>1.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>WARNER</instructor>
+    <limit>0010</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26716</sln>
+    <prefix>EDPSY</prefix>
+    <crs>565</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ADV ED STAT</title>
+    <credit>3.0</credit>
+    <days>W</days>
+    <times>
+      <start>17:10</start>
+      <end>20:00</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>242</room>
+    </place>
+    <instructor></instructor>
+    <limit>0030</limit>
+    <enrolled>0014</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26724</sln>
+    <prefix>EDPSY</prefix>
+    <crs>570</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PROGRAM EVAL</title>
+    <credit>3.0</credit>
+    <days>W</days>
+    <times>
+      <start>13:10</start>
+      <end>16</end>
+    </times>
+    <place>
+      <bldg>CLEV</bldg>
+      <room>382</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0019</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26740</sln>
+    <prefix>EDPSY</prefix>
+    <crs>597</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>EDPSY INTERN</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26757</sln>
+    <prefix>EDPSY</prefix>
+    <crs>600</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PR/IND ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26765</sln>
+    <prefix>EDPSY</prefix>
+    <crs>700</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST TH EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26773</sln>
+    <prefix>EDPSY</prefix>
+    <crs>702</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST DIR ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>26781</sln>
+    <prefix>EDPSY</prefix>
+    <crs>800</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DOCT DISS EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0010</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>23994</sln>
+    <prefix>E E</prefix>
+    <crs>120</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INNOV IN DES</title>
+    <credit>2.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>175</room>
+    </place>
+    <instructor></instructor>
+    <limit>0014</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24000</sln>
+    <prefix>E E</prefix>
+    <crs>120</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>INNOV IN DES</title>
+    <credit>2.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>CARP</bldg>
+      <room>102</room>
+    </place>
+    <instructor></instructor>
+    <limit>0015</limit>
+    <enrolled>0015</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12062</sln>
+    <prefix>AGTM</prefix>
+    <crs>453</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>AGRIC WASTE</title>
+    <credit>2.0</credit>
+    <days>M,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>HULB</bldg>
+      <room>27</room>
+    </place>
+    <instructor>CHEN</instructor>
+    <limit>0020</limit>
+    <enrolled>0006</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24018</sln>
+    <prefix>E E</prefix>
+    <crs>120</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>INNOV IN DES</title>
+    <credit>2.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>175</room>
+    </place>
+    <instructor></instructor>
+    <limit>0016</limit>
+    <enrolled>0016</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24026</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor>TINDER</instructor>
+    <limit>0024</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24034</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24042</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24059</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24067</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>05</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24075</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>06</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24091</sln>
+    <prefix>E E</prefix>
+    <crs>214</crs>
+    <lab></lab>
+    <sect>07</sect>
+    <title>LOGIC CKTS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>216</room>
+    </place>
+    <instructor>COLE</instructor>
+    <limit>0001</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24133</sln>
+    <prefix>E E</prefix>
+    <crs>261</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CIRCUITS I</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>WELLS</instructor>
+    <limit>0072</limit>
+    <enrolled>0068</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24141</sln>
+    <prefix>E E</prefix>
+    <crs>262</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CIRCUITS LAB</title>
+    <credit>1.0</credit>
+    <days>TH</days>
+    <times>
+      <start>9:10</start>
+      <end>12</end>
+    </times>
+    <place>
+      <bldg>EME</bldg>
+      <room>34</room>
+    </place>
+    <instructor>FALLON</instructor>
+    <limit>0024</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12070</sln>
+    <prefix>AGTM</prefix>
+    <crs>481</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ADV TOPICS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0015</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24158</sln>
+    <prefix>E E</prefix>
+    <crs>262</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>CIRCUITS LAB</title>
+    <credit>1.0</credit>
+    <days>TH</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>EME</bldg>
+      <room>34</room>
+    </place>
+    <instructor>FALLON</instructor>
+    <limit>0024</limit>
+    <enrolled>0028</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24166</sln>
+    <prefix>E E</prefix>
+    <crs>262</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>CIRCUITS LAB</title>
+    <credit>1.0</credit>
+    <days>F</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>EME</bldg>
+      <room>34</room>
+    </place>
+    <instructor>FALLON</instructor>
+    <limit>0024</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24208</sln>
+    <prefix>E E</prefix>
+    <crs>304</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INTR EL CKTS</title>
+    <credit>2.0</credit>
+    <days>W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ALBR</bldg>
+      <room>210</room>
+    </place>
+    <instructor>KAVASSERI</instructor>
+    <limit>0063</limit>
+    <enrolled>0059</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24216</sln>
+    <prefix>E E</prefix>
+    <crs>305</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INTR MICROPR</title>
+    <credit>2.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>OREJEL</instructor>
+    <limit>0050</limit>
+    <enrolled>0017</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24224</sln>
+    <prefix>E E</prefix>
+    <crs>311</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ELECTRONICS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>9</room>
+    </place>
+    <instructor>RINGO</instructor>
+    <limit>0064</limit>
+    <enrolled>0033</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24240</sln>
+    <prefix>E E</prefix>
+    <crs>314</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MICROPR SYST</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>APPERSON</instructor>
+    <limit>0018</limit>
+    <enrolled>0015</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24257</sln>
+    <prefix>E E</prefix>
+    <crs>314</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>MICROPR SYST</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>APPERSON</instructor>
+    <limit>0018</limit>
+    <enrolled>0016</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24265</sln>
+    <prefix>E E</prefix>
+    <crs>314</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>MICROPR SYST</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>APPERSON</instructor>
+    <limit>0018</limit>
+    <enrolled>0018</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24273</sln>
+    <prefix>E E</prefix>
+    <crs>314</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>MICROPR SYST</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>APPERSON</instructor>
+    <limit>0018</limit>
+    <enrolled>0014</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24323</sln>
+    <prefix>E E</prefix>
+    <crs>321</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CIRCUITS II</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>FISCHER</instructor>
+    <limit>0065</limit>
+    <enrolled>0041</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12088</sln>
+    <prefix>AGTM</prefix>
+    <crs>495</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>AGTM INTERN</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24356</sln>
+    <prefix>E E</prefix>
+    <crs>324</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>FUND DIG SYS</title>
+    <credit>4.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>COLE</instructor>
+    <limit>0024</limit>
+    <enrolled>0011</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24364</sln>
+    <prefix>E E</prefix>
+    <crs>324</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>FUND DIG SYS</title>
+    <credit>4.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor></instructor>
+    <limit>0024</limit>
+    <enrolled>0016</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24372</sln>
+    <prefix>E E</prefix>
+    <crs>331</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>FLDS &amp; WAVES</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>BROSCHAT</instructor>
+    <limit>0050</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24398</sln>
+    <prefix>E E</prefix>
+    <crs>341</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SIG AND SYS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>BELZER</instructor>
+    <limit>0050</limit>
+    <enrolled>0033</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24406</sln>
+    <prefix>E E</prefix>
+    <crs>351</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DIST PAR SYS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>9</room>
+    </place>
+    <instructor>OLSEN</instructor>
+    <limit>0050</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24422</sln>
+    <prefix>E E</prefix>
+    <crs>352</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>E E LAB I</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>7</room>
+    </place>
+    <instructor>FALLON</instructor>
+    <limit>0014</limit>
+    <enrolled>0011</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24430</sln>
+    <prefix>E E</prefix>
+    <crs>352</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>E E LAB I</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>7</room>
+    </place>
+    <instructor>FALLON</instructor>
+    <limit>0014</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24463</sln>
+    <prefix>E E</prefix>
+    <crs>361</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ELEC PWR SYS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>16:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>PEDROW</instructor>
+    <limit>0030</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24471</sln>
+    <prefix>E E</prefix>
+    <crs>362</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[M] POWER LAB I</title>
+    <credit>V</credit>
+    <days>TH</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>VAZIRI</instructor>
+    <limit>0012</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24489</sln>
+    <prefix>E E</prefix>
+    <crs>362</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>[M] POWER LAB I</title>
+    <credit>V</credit>
+    <days>TH</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor></instructor>
+    <limit>0012</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12096</sln>
+    <prefix>AGTM</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24521</sln>
+    <prefix>E E</prefix>
+    <crs>380</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PROF PRACTIC</title>
+    <credit>1.0</credit>
+    <days>W</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>WELLS</instructor>
+    <limit>0002</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>74021</sln>
+    <prefix>E E</prefix>
+    <crs>415</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DSN PROJ MGT</title>
+    <credit>2.0</credit>
+    <days>TH</days>
+    <times>
+      <start>15:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>175</room>
+    </place>
+    <instructor>OLSEN</instructor>
+    <limit>0048</limit>
+    <enrolled>0042</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24539</sln>
+    <prefix>E E</prefix>
+    <crs>416</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[M] E E DESIGN</title>
+    <credit>3.0</credit>
+    <days>TU</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>5</room>
+    </place>
+    <instructor>HAGEMEISTER</instructor>
+    <limit>0040</limit>
+    <enrolled>0023</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24596</sln>
+    <prefix>E E</prefix>
+    <crs>432</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>RF ENGINEER</title>
+    <credit>4.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>161</room>
+    </place>
+    <instructor>HUDSON</instructor>
+    <limit>0030</limit>
+    <enrolled>0031</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24604</sln>
+    <prefix>E E</prefix>
+    <crs>434</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>VLSI SYST I</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>7</room>
+    </place>
+    <instructor>COLE</instructor>
+    <limit>0040</limit>
+    <enrolled>0012</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24646</sln>
+    <prefix>E E</prefix>
+    <crs>464</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DIG SIG PROC</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>9</room>
+    </place>
+    <instructor>SIVAKUMAR</instructor>
+    <limit>0055</limit>
+    <enrolled>0013</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24711</sln>
+    <prefix>E E</prefix>
+    <crs>472</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>POWER LAB II</title>
+    <credit>2.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>MOSHER</instructor>
+    <limit>0010</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>24729</sln>
+    <prefix>E E</prefix>
+    <crs>476</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ANLY INT CKT</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>150</room>
+    </place>
+    <instructor>FETCHE</instructor>
+    <limit>0030</limit>
+    <enrolled>0018</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24737</sln>
+    <prefix>E E</prefix>
+    <crs>477</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[M] AN INT CK L</title>
+    <credit>2.0</credit>
+    <days>TU</days>
+    <times>
+      <start>9:10</start>
+      <end>13</end>
+    </times>
+    <place>
+      <bldg>EME</bldg>
+      <room>230</room>
+    </place>
+    <instructor>FETCHE</instructor>
+    <limit>0015</limit>
+    <enrolled>0009</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24810</sln>
+    <prefix>E E</prefix>
+    <crs>483</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>TOPICS ECE</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0001</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>12104</sln>
+    <prefix>ALCST</prefix>
+    <crs>365</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PROB ALC ADD</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>FSHN</bldg>
+      <room>T101</room>
+    </place>
+    <instructor>MOSHER</instructor>
+    <limit>0025</limit>
+    <enrolled>0009</enrolled>
+  </course>
+
+  <course>
+    <footnote>I</footnote>
+    <sln>24836</sln>
+    <prefix>E E</prefix>
+    <crs>486</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>POWER ELECTR</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>16:30</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>JEB</bldg>
+      <room>25</room>
+    </place>
+    <instructor>HESS</instructor>
+    <limit>0010</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>24851</sln>
+    <prefix>E E</prefix>
+    <crs>489</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INTR CON SYS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>169</room>
+    </place>
+    <instructor>HSU</instructor>
+    <limit>0050</limit>
+    <enrolled>0022</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>24877</sln>
+    <prefix>E E</prefix>
+    <crs>491</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PWR SYS PERF</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>17:45</start>
+      <end>19</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>PHILIPP</instructor>
+    <limit>0020</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24885</sln>
+    <prefix>E E</prefix>
+    <crs>493</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PRT PWRSYS I</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>38</room>
+    </place>
+    <instructor>PEREZ</instructor>
+    <limit>0040</limit>
+    <enrolled>0006</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24893</sln>
+    <prefix>E E</prefix>
+    <crs>494</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>PROT REL LAB</title>
+    <credit>2.0</credit>
+    <days>TU</days>
+    <times>
+      <start>14:10</start>
+      <end>17</end>
+    </times>
+    <place>
+      <bldg>EME</bldg>
+      <room>28</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24901</sln>
+    <prefix>E E</prefix>
+    <crs>495</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INTERNSHIP</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24919</sln>
+    <prefix>E E</prefix>
+    <crs>496</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INT SEMI DEV</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>46</room>
+    </place>
+    <instructor>OSMAN</instructor>
+    <limit>0040</limit>
+    <enrolled>0015</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24927</sln>
+    <prefix>E E</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24935</sln>
+    <prefix>E E</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24943</sln>
+    <prefix>E E</prefix>
+    <crs>501</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>LIN SYS TH</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>161</room>
+    </place>
+    <instructor>HSU</instructor>
+    <limit>0040</limit>
+    <enrolled>0019</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12112</sln>
+    <prefix>ALCST</prefix>
+    <crs>367</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP TOPICS</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>JSNT</bldg>
+      <room>226</room>
+    </place>
+    <instructor>FOSCHINI-MILLER</instructor>
+    <limit>0020</limit>
+    <enrolled>0010</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24968</sln>
+    <prefix>E E</prefix>
+    <crs>504</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MODRN OPTICS</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>161</room>
+    </place>
+    <instructor>SCHNEIDER</instructor>
+    <limit>0025</limit>
+    <enrolled>0017</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>24984</sln>
+    <prefix>E E</prefix>
+    <crs>507</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>RANDOM PROC</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>12:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>38</room>
+    </place>
+    <instructor>SABERI</instructor>
+    <limit>0025</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25015</sln>
+    <prefix>E E</prefix>
+    <crs>514</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>OPTELECTRON1</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>OSMAN</instructor>
+    <limit>0020</limit>
+    <enrolled>0005</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25031</sln>
+    <prefix>E E</prefix>
+    <crs>518</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>AD EL TH I</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>MURE</bldg>
+      <room>242</room>
+    </place>
+    <instructor>SCHNEIDER</instructor>
+    <limit>0015</limit>
+    <enrolled>0007</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25056</sln>
+    <prefix>E E</prefix>
+    <crs>521</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>POW SYS ANLY</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>32</room>
+    </place>
+    <instructor>VENKATASUBRAMANIAN</instructor>
+    <limit>0030</limit>
+    <enrolled>0005</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25122</sln>
+    <prefix>E E</prefix>
+    <crs>543</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SIGNAL THEOR</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>32</room>
+    </place>
+    <instructor>FISCHER</instructor>
+    <limit>0020</limit>
+    <enrolled>0010</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>25171</sln>
+    <prefix>E E</prefix>
+    <crs>555</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>CPT COM NETW</title>
+    <credit>3.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>16:15</start>
+      <end>17:30</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>SIVALINGAM</instructor>
+    <limit>0008</limit>
+    <enrolled>0006</enrolled>
+  </course>
+
+  <course>
+    <footnote>T</footnote>
+    <sln>25189</sln>
+    <prefix>E E</prefix>
+    <crs>564</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ADV SIG PROC</title>
+    <credit>3.0</credit>
+    <days>TH</days>
+    <times>
+      <start>19:15</start>
+      <end>22</end>
+    </times>
+    <place>
+      <bldg>MURW</bldg>
+      <room>54</room>
+    </place>
+    <instructor>MORTZ</instructor>
+    <limit>0015</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25254</sln>
+    <prefix>E E</prefix>
+    <crs>595</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DIRECTED ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25288</sln>
+    <prefix>E E</prefix>
+    <crs>600</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PR/IND ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12120</sln>
+    <prefix>ALCST</prefix>
+    <crs>444</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>HELP SKILLS</title>
+    <credit>2.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>LUBOSKI</instructor>
+    <limit>0012</limit>
+    <enrolled>0003</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25296</sln>
+    <prefix>E E</prefix>
+    <crs>700</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST TH EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0018</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25304</sln>
+    <prefix>E E</prefix>
+    <crs>702</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MAST DIR ST</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0000</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25312</sln>
+    <prefix>E E</prefix>
+    <crs>800</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>DOCT DISS EX</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0032</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>65375</sln>
+    <prefix>E MIC</prefix>
+    <crs>406</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MICROTECH</title>
+    <credit>4.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SCIE</bldg>
+      <room>133C</room>
+    </place>
+    <instructor>FRANCESCHI</instructor>
+    <limit>0010</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65425</sln>
+    <prefix>E MIC</prefix>
+    <crs>406</crs>
+    <lab>L</lab>
+    <sect>01</sect>
+    <title>MICROTECH</title>
+    <credit></credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SCIE</bldg>
+      <room>133</room>
+    </place>
+    <instructor></instructor>
+    <limit>0010</limit>
+    <enrolled>0002</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>65391</sln>
+    <prefix>E MIC</prefix>
+    <crs>506</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>MICROTECH</title>
+    <credit>4.0</credit>
+    <days>M,W</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SCIE</bldg>
+      <room>133C</room>
+    </place>
+    <instructor>FRANCESCHI</instructor>
+    <limit>0010</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>65433</sln>
+    <prefix>E MIC</prefix>
+    <crs>506</crs>
+    <lab>L</lab>
+    <sect>01</sect>
+    <title>MICROTECH</title>
+    <credit></credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>SCIE</bldg>
+      <room>133</room>
+    </place>
+    <instructor></instructor>
+    <limit>0010</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>25387</sln>
+    <prefix>E MIC</prefix>
+    <crs>586</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SPEC PROJ EM</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>FRANCESCHI</instructor>
+    <limit>0040</limit>
+    <enrolled>0038</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>25395</sln>
+    <prefix>E MIC</prefix>
+    <crs>587</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP TOP EM</title>
+    <credit>1.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>FRANCESCHI</instructor>
+    <limit>0040</limit>
+    <enrolled>0038</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26799</sln>
+    <prefix>ENGL</prefix>
+    <crs>100</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>BASIC WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>COLL</bldg>
+      <room>138</room>
+    </place>
+    <instructor></instructor>
+    <limit>0021</limit>
+    <enrolled>0018</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12138</sln>
+    <prefix>ALCST</prefix>
+    <crs>444</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>HELP SKILLS</title>
+    <credit>2.0</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor>LUBOSKI</instructor>
+    <limit>0012</limit>
+    <enrolled>0001</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26807</sln>
+    <prefix>ENGL</prefix>
+    <crs>100</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>BASIC WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>121</room>
+    </place>
+    <instructor></instructor>
+    <limit>0021</limit>
+    <enrolled>0015</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26815</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>404</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26823</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>02</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>201</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26831</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>03</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>163</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26849</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>04</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>WILS</bldg>
+      <room>5</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26856</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>05</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>122</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26864</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>06</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>8</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26872</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>07</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>12:00</start>
+      <end>13:15</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>122</room>
+    </place>
+    <instructor></instructor>
+    <limit>0025</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26880</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>08</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>WILS</bldg>
+      <room>5</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26898</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>09</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>226</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12153</sln>
+    <prefix>ALCST</prefix>
+    <crs>447</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>ALC COUNSEL</title>
+    <credit>2.0</credit>
+    <days>M</days>
+    <times>
+      <start>14:10</start>
+      <end>16</end>
+    </times>
+    <place>
+      <bldg>JSNT</bldg>
+      <room>226</room>
+    </place>
+    <instructor>FOSCHINI-MILLER</instructor>
+    <limit>0005</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26906</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>10</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>BRYN</bldg>
+      <room>402</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26914</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>11</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>12:00</start>
+      <end>13:15</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>226</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26922</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>12</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>15:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>102</room>
+    </place>
+    <instructor></instructor>
+    <limit>0025</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26930</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>13</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>127</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26948</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>14</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>8</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26955</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>15</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>CLAR</bldg>
+      <room>147</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26963</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>16</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>226</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26971</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>17</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>13:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>WILS</bldg>
+      <room>5</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>26997</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>19</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>VAND</bldg>
+      <room>3</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27011</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>21</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>201</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>10793</sln>
+    <prefix>ACCTG</prefix>
+    <crs>330</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>INT ACCT I</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>411</room>
+    </place>
+    <instructor>SWEENEY</instructor>
+    <limit>0045</limit>
+    <enrolled>0030</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12161</sln>
+    <prefix>ALCST</prefix>
+    <crs>499</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>SP PROBLEMS</title>
+    <credit>V</credit>
+    <days></days>
+    <times>
+      <start></start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>ARR</bldg>
+      <room>ARR</room>
+    </place>
+    <instructor></instructor>
+    <limit>0100</limit>
+    <enrolled>0004</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27029</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>22</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>106</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27037</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>23</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>201</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27045</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>24</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>14:50</start>
+      <end>16:05</end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>106</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27060</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>26</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>104</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0024</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27078</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>27</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>COLL</bldg>
+      <room>235</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27086</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>28</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>127</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27094</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>29</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>SGYM</bldg>
+      <room>205</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27102</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>30</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>VAND</bldg>
+      <room>4</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27110</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>31</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>12:00</start>
+      <end>13:15</end>
+    </times>
+    <place>
+      <bldg>WILS</bldg>
+      <room>5</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27128</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>32</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>9:10</start>
+      <end>10:25</end>
+    </times>
+    <place>
+      <bldg>LJSM</bldg>
+      <room>260</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote></footnote>
+    <sln>12179</sln>
+    <prefix>AM ST</prefix>
+    <crs>216</crs>
+    <lab></lab>
+    <sect>01</sect>
+    <title>[H] AMER CULTURE</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>14:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>BRYN</bldg>
+      <room>324</room>
+    </place>
+    <instructor></instructor>
+    <limit>0020</limit>
+    <enrolled>0008</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27136</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>33</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>SLOA</bldg>
+      <room>163</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27144</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>34</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>8:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>AVER</bldg>
+      <room>12</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27151</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>35</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>12:00</start>
+      <end>13:15</end>
+    </times>
+    <place>
+      <bldg>WILS</bldg>
+      <room>3</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27169</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>36</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>10:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>VAND</bldg>
+      <room>4</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27177</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>37</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>11:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>122</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27185</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>38</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>10:35</start>
+      <end>11:50</end>
+    </times>
+    <place>
+      <bldg>THOM</bldg>
+      <room>215</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27201</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>40</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>TU,TH</days>
+    <times>
+      <start>13:25</start>
+      <end>14:40</end>
+    </times>
+    <place>
+      <bldg>MURE</bldg>
+      <room>229</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0025</enrolled>
+  </course>
+
+  <course>
+    <footnote>Q</footnote>
+    <sln>27219</sln>
+    <prefix>ENGL</prefix>
+    <crs>101</crs>
+    <lab></lab>
+    <sect>41</sect>
+    <title>[W] INTRO WRTG</title>
+    <credit>3.0</credit>
+    <days>M,W,F</days>
+    <times>
+      <start>9:10</start>
+      <end></end>
+    </times>
+    <place>
+      <bldg>TODD</bldg>
+      <room>126</room>
+    </place>
+    <instructor></instructor>
+    <limit>0026</limit>
+    <enrolled>0026</enrolled>
+  </course>
+</root>

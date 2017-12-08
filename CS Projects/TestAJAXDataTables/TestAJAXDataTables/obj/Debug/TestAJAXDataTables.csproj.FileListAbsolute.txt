@@ -1,0 +1,15 @@
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\TestAJAXDataTables.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\TestAJAXDataTables.pdb
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\EntityFramework.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\Microsoft.Web.Infrastructure.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.Helpers.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.Mvc.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.Providers.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.Razor.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.WebPages.Deployment.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.WebPages.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\System.Web.WebPages.Razor.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\bin\EntityFramework.xml
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\obj\Debug\TestAJAXDataTables.csprojResolveAssemblyReference.cache
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\obj\Debug\TestAJAXDataTables.dll
+d:\documents\visual studio 2012\Projects\TestAJAXDataTables\TestAJAXDataTables\obj\Debug\TestAJAXDataTables.pdb

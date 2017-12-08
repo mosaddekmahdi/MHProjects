@@ -1,0 +1,8 @@
+1464090402168	Encapsulate field 'name'
+1464090409133	Encapsulate field 'id'
+1464091199208	Rename type 'jdbcDaoImpl'
+1464091214153	Rename compilation unit 'jdbcDemo.java'
+1464097249768	Move file
+1464098586651	Encapsulate field 'dataSource'
+1464119180401	Delete element
+1464256353574	Encapsulate field 'namedParameterJdbcTemplate'

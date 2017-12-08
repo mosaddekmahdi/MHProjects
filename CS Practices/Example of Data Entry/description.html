@@ -1,0 +1,874 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Example data entry with EntityFramework4.1</title>
+        <link href="description/Galleries.css" type="text/css" rel="Stylesheet" /><link href="description/Layout.css" type="text/css" rel="Stylesheet" /><link href="description/Brand.css" type="text/css" rel="Stylesheet" />
+        <link href="description/iframedescription.css" rel="Stylesheet" type="text/css" />
+        <script src="description/offline.js" type="text/javascript"></script>
+        <style type="text/css">
+            #projectInfo {
+                overflow: auto;
+            }
+            #longDesc {
+                clear:both;
+                margin: 25px 0 10px 0;
+            }
+
+            #SampleIndexList{
+                margin-left: 15px;
+            }
+        </style>
+    </head>
+<body>
+    <div id="offlineDescription">
+        <h1>Example data entry with EntityFramework4.1</h1>
+        <br/>
+        <div id="projectInfo">
+            <div class="section">
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Technologies">Technologies</label>
+                        <div id="Technologies">
+                            C#, ADO.NET Entity Framework, ADO.NET, LINQ, Windows Forms, .NET Framework, Entity Framework, .NET Framework 4.0
+                        </div>
+                    </div>
+                    <div class="itemBarLong tagsContainer">
+                        <label for="Topics">Topics</label>
+                        <div id="Topics">
+                            ADO.NET Entity Framework, ADO.NET, LINQ, Windows Forms, LINQ to Entities, .NET 4
+                        </div>
+                    </div>
+                <div class="itemBarLong">
+                    <label for="Platforms">Platforms</label>
+                    <div id="Platforms">
+                        Desktop, Data
+                    </div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="Requirements">Requirements</label>
+                    <div id="Requirements">
+                        
+                    </div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Primary Language</label>
+                    <div id="LastUpdated">en-US</div>
+                </div>
+                <div class="itemBar">
+                    <label for="LastUpdated">Last Updated</label>
+                    <div id="LastUpdated">11/20/2011</div>
+                </div>
+                <div class="itemBarLong">
+                    <label for="License">License</label>
+                    <div id="License">
+                        <a href="license.rtf">Apache License, Version 2.0</a></div>
+                </div>
+                <div class="itemBar">
+                    <div class="viewonlinecont">
+                        <a data-link="online" href="http://code.msdn.microsoft.com/Example-data-entry-with-8554d409">View this sample online</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                   
+<script type="text/javascript">
+    function initializePage() {
+        var otherTabClass = 'otherTab';
+        var hiddenPreClass = 'hidden';
+
+        var htmlDecode = function(encodedData) {
+            var decodedData = "";
+            if (encodedData) {
+                var div = document.createElement('div');
+                div.innerHTML = encodedData;
+                decodedData = div.firstChild.nodeValue.replace( /\\r\\n/ig , '\r\n');
+            }
+            return decodedData;
+        };
+                
+        Galleries.iterateElem(Galleries.findElem(null, 'div', 'scriptcode'), function (index, scriptBlock) {
+            var titleElem = Galleries.findElem(scriptBlock, 'div', 'title')[0];
+            var labelElems = Galleries.findElem(titleElem, 'span');
+            if (labelElems.length == 0) {
+                labelElems = titleElem;
+            }
+            var languageSpans = Galleries.findElem(scriptBlock, 'span', 'hidden');
+            var pres = Galleries.findElem(scriptBlock, 'pre');
+            if (languageSpans.length > 0 && pres.length > 1) {
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    var languageSpan = languageSpans[index];
+                            
+                    elem.code = codePre.innerHTML.replace( /(\r(\n)?)|((\r)?\n)/ig , '\\r\\n');
+                            
+                    codePre.className = codePre.className.replace(hiddenPreClass, '');
+                            
+                    languageSpan.parentNode.removeChild(languageSpan);
+                });
+
+                pres = Galleries.findElem(scriptBlock, 'pre');
+                Galleries.iterateElem(labelElems, function(index, elem) {
+                    var codePre = pres[index];
+                    var labelSpan = elem;
+                    if (index == 0) {
+                        scriptBlock.activeTab = 0;
+                    }
+                    else {
+                        labelSpan.className += otherTabClass;
+                        codePre.className += hiddenPreClass;
+                    }
+                    Galleries.attachEventHandler(labelSpan, 'click', function(e) {
+                        var activeTab = scriptBlock.activeTab;
+                        labelElems[activeTab].className += otherTabClass;
+                        pres[activeTab].className += hiddenPreClass;
+
+                        codePre.className = codePre.className.replace(hiddenPreClass, '');
+                        labelSpan.className = labelSpan.className.replace(otherTabClass, '');
+                        scriptBlock.activeTab = index;
+                    });
+                });
+
+                var preview = Galleries.findElem(scriptBlock, 'div', 'preview');
+                if (preview.length == 0) {
+                    preview.push(pres[pres.length - 1]);
+                }
+                Galleries.iterateElem(preview, function(index, elem) {
+                    elem.parentNode.removeChild(elem);
+                });
+
+                if (window.clipboardData && clipboardData.setData) {
+                    var copyLink = document.createElement('a');
+                    copyLink.href = 'javascript:void(0);';
+                    copyLink.className = 'copyCode';
+                    copyLink.innerHTML = 'Copy Code';
+                    Galleries.attachEventHandler(copyLink, 'click', function (e) {
+                        clipboardData.setData("Text", htmlDecode(labelElems[scriptBlock.activeTab].code));
+                        return false;
+                    });
+                    scriptBlock.insertBefore(copyLink, scriptBlock.childNodes[0]);
+                }
+            }
+        });
+    }
+
+    Galleries.onWindowLoad(function(){
+        initializePage();
+    });
+
+</script>
+<div id="longDesc">
+    
+<h1>Introduction</h1>
+<p><em><span class="hps">This</span> <span class="hps">example shows how to</span>
+<span class="hps">insert data into</span> <span class="hps">a table</span> <span class="hps">
+by using</span> <span class="hps">EntityFramework4.1</span></em></p>
+<h1><span>Building the Sample</span></h1>
+<p><em><span class="hps">to</span> <span class="hps">run the example</span> <span class="hps">
+you should download</span> <span class="hps">and install</span> <span class="hps">
+EntityFramework4.1RC</span> <span class="hps">you can</span> <span class="hps">
+download</span> <span class="hps">this <a href="http://www.microsoft.com/download/en/details.aspx?id=18504">
+link</a>&nbsp;</span></em><em><span class="hps"><span class="hps">Furthermore,</span>
+<span class="hps">the example</span> <span class="hps">has been</span> <span class="hps">
+tested</span> <span class="hps">using</span> <span class="hps">SqlServerManagementStudio</span>
+<span class="hps">which can be downloaded</span> <span class="hps">from this <a href="http://www.microsoft.com/download/en/details.aspx?id=7593">
+link</a></span></span></em></p>
+<p><span style="font-size:20px; font-weight:bold">Description</span></p>
+<p><span class="hps">EntityFramework4.1</span> <span class="hps">and also known as</span>
+<span class="hps">CodeFirst</span><span>,</span> <span class="hps">with which</span>
+<span class="hps">it is possible</span> <span class="hps">to map</span> <span class="hps">
+one or more tables</span> <span class="hps">directly from your code</span><span>, so</span>
+<span class="hps">no</span> <span class="hps">need to use</span> <span class="hps">
+the</span> <span class="hps">VisualStudio</span> <span class="hps">designer</span>
+<span class="hps">and</span> <span class="hps">necessarily have</span> <span class="hps">
+the mapping file</span><span>.</span> <span class="hps">EDMX</span><br>
+<br>
+<span class="hps">This example</span> <span class="hps">runs a</span> <span class="hps">
+simple example of a</span> <span class="hps">phone book</span><span>,</span> <span class="hps">
+there will be a</span> <span class="hps">class called</span> <span class="hps">
+Person</span> <span class="hps">that will</span> <span class="hps">map the</span>
+<span class="hps">five</span> <span class="hps">fields in a</span> <span class="hps">
+table called</span> <span class="hps">People</span><span>, which</span> <span class="hps">
+is located within the</span> <span class="hps">PhoneBook</span> <span class="hps">
+DataBase</span><span>.</span><br>
+<span class="hps">Street</span> <span class="hps">will be the</span> <span class="hps">
+ID fields</span> <span class="hps">of type int</span> <span class="hps">primary key</span><span>,</span>
+<span class="hps">Name field</span> <span class="hps">of type String</span><span>,</span>
+<span class="hps">Surname</span> <span class="hps">field</span> <span class="hps">
+of type String</span><span>,</span> <span class="hps">String</span> <span class="hps">
+telephoneNumber</span> <span class="hps">field</span> <span class="hps">and</span>
+<span class="hps">a field</span> <span class="hps">of type String</span> <span class="hps">
+Mobile</span><span>.<span class="hps">This</span> <span class="hps">class creates</span>
+<span class="hps">a</span> <span class="hps">database called</span> <span class="hps">
+if not present</span> <span class="hps">at runtime</span> <span class="hps">PhoneBook.</span></span><br>
+N<span class="hps">ame</span> <span class="hps">of</span> <span class="hps">
+the table</span> <span class="hps">with its</span> <span class="hps">Internal</span>
+<span class="hps">People and</span> <span class="hps">the fields described</span>
+<span class="hps">above.</span><br>
+<br>
+<span class="hps">Then</span> <span class="hps">there will be a</span> <span class="hps">
+class called</span> <span class="hps">PhoneBookContext</span><span>, which</span>
+<span class="hps">will inherit from</span> <span class="hps">DbContext</span>
+<span class="hps">and inside</span> <span class="hps">will be</span> <span class="hps">
+declared</span> <span class="hps">and</span> <span class="hps">which</span> <span class="hps">
+needed to</span> <span class="hps">DbSet</span> <span class="hps">Represents</span>
+<span class="hps">a</span> <span class="hps">typed</span> <span class="hps">
+entity</span> <span class="hps">used</span> <span class="hps">to</span> <span class="hps">
+perform</span> <span class="hps">Sept.</span> <span class="hps">That Is</span>
+<span class="hps">create, read</span><span>, update</span><span>,</span> <span class="hps">
+and delete</span> <span class="hps">operations</span><span>.</span><br>
+<br>
+<span class="hps">Finally</span> <span class="hps">we have the</span> <span class="hps">
+code to insert</span> <span class="hps">data</span> <span class="hps">in the table</span>
+<span class="hps">in the</span> <span class="hps">People</span> <span class="hps">
+PhoneBook</span> <span class="hps">DataBase</span><span>.</span><br>
+<br>
+<span class="hps">The example</span> <span class="hps">also contains</span> <span class="hps">
+some examples of queries</span> <span class="hps">LinqToEntities</span> <span class="hps">
+to search</span> <span class="hps">for information</span> <span class="hps">within the table</span><span>,</span>
+<span class="hps">and</span> <span class="hps">you</span> <span class="hps">
+search by name</span><span>, surname</span><span>, telephone</span> <span class="hps">
+and mobile</span><span>, all</span> <span class="hps">displayed</span> <span class="hps">
+in a</span> <span class="hps">DataGridView control</span> <span class="hps">by</span>
+<span class="hps">a</span> <span class="hps">class</span> <span class="hps">
+FindPerson</span> <span class="hps">cheespone</span> <span class="hps">DetailPerson</span>
+<span class="hps">function called</span> <span class="hps">which returns</span>
+<span class="hps">a DataGridView</span> <span class="hps">containing</span> <span class="hps">
+all</span> <span class="hps">the required information.</span><br>
+<br>
+<span class="hps">For</span> <span class="hps">the sake of clarity</span> <span class="hps">
+below</span> <span class="hps">the code</span> <span class="hps">of the</span>
+<span class="hps">sample classes</span><span>.</span>&nbsp;</p>
+<p><span class="hps">The code</span> <span class="hps">of the</span> <span class="hps">
+class</span> <span class="hps">Person</span></p>
+<p>&nbsp;</p>
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Modifica script</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">// Import the framework of the Libraries
+using System;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.ComponentModel.DataAnnotations.aspx"  title="Auto generated link to System.ComponentModel.DataAnnotations">System.ComponentModel.DataAnnotations</a>;
+
+// PhoneBook project
+namespace PhoneBook
+{
+    // class Person
+    class Person
+    {
+        // private field of type int
+        public int ID { get; set; }
+        // This attribute specifies the field below is required that can not be null or empty
+        [Required]
+        // private field of type string
+        public string NAME { get; set; }
+        // This attribute specifies the field below is required that can not be null or empty
+        [Required]
+        // private field of type string
+        public string SURNAME { get; set; }
+        // This attribute specifies the field below is required that can not be null or empty
+        [Required]
+        // private field of type string
+        public string TELEPHONENUMBER { get; set; }
+        // This attribute specifies the field below is required that can not be null or empty
+        [Required]
+        // private field of type string
+        public string MOBILE { get; set; }
+    }
+}
+</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__com">//&nbsp;Import&nbsp;the&nbsp;framework&nbsp;of&nbsp;the&nbsp;Libraries</span>&nbsp;
+<span class="cs__keyword">using</span>&nbsp;System;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.ComponentModel.DataAnnotations.aspx"  title="Auto generated link to System.ComponentModel.DataAnnotations">System.ComponentModel.DataAnnotations</a>;&nbsp;
+&nbsp;
+<span class="cs__com">//&nbsp;PhoneBook&nbsp;project</span>&nbsp;
+<span class="cs__keyword">namespace</span>&nbsp;PhoneBook&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;class&nbsp;Person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">class</span>&nbsp;Person&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;int</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">int</span>&nbsp;ID&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;This&nbsp;attribute&nbsp;specifies&nbsp;the&nbsp;field&nbsp;below&nbsp;is&nbsp;required&nbsp;that&nbsp;can&nbsp;not&nbsp;be&nbsp;null&nbsp;or&nbsp;empty</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Required]&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;NAME&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;This&nbsp;attribute&nbsp;specifies&nbsp;the&nbsp;field&nbsp;below&nbsp;is&nbsp;required&nbsp;that&nbsp;can&nbsp;not&nbsp;be&nbsp;null&nbsp;or&nbsp;empty</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Required]&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;SURNAME&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;This&nbsp;attribute&nbsp;specifies&nbsp;the&nbsp;field&nbsp;below&nbsp;is&nbsp;required&nbsp;that&nbsp;can&nbsp;not&nbsp;be&nbsp;null&nbsp;or&nbsp;empty</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Required]&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;TELEPHONENUMBER&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;This&nbsp;attribute&nbsp;specifies&nbsp;the&nbsp;field&nbsp;below&nbsp;is&nbsp;required&nbsp;that&nbsp;can&nbsp;not&nbsp;be&nbsp;null&nbsp;or&nbsp;empty</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Required]&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;MOBILE&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}&nbsp;
+</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode">&nbsp;<span class="hps">The code</span> <span class="hps">
+of the</span> <span class="hps">class</span> PhoneBookContext.</div>
+<div class="endscriptcode"></div>
+<div class="endscriptcode">
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Modifica script</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">// Import the framework of the Libraries
+using System;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;
+
+// PhoneBook project
+namespace PhoneBook
+{
+    // class PhoneBookContext
+    class PhoneBookContext : DbContext
+    {
+        // private field of type DbSet&lt;TEntity Person&gt;
+        // Represents a typed entity set that is used to perform create, read, update, and delete operations.
+        public DbSet&lt;Person&gt; Persons { get; set; }
+    }
+}
+</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__com">//&nbsp;Import&nbsp;the&nbsp;framework&nbsp;of&nbsp;the&nbsp;Libraries</span>&nbsp;
+<span class="cs__keyword">using</span>&nbsp;System;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;&nbsp;
+&nbsp;
+<span class="cs__com">//&nbsp;PhoneBook&nbsp;project</span>&nbsp;
+<span class="cs__keyword">namespace</span>&nbsp;PhoneBook&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;class&nbsp;PhoneBookContext</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">class</span>&nbsp;PhoneBookContext&nbsp;:&nbsp;DbContext&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;DbSet&lt;TEntity&nbsp;Person&gt;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Represents&nbsp;a&nbsp;typed&nbsp;entity&nbsp;set&nbsp;that&nbsp;is&nbsp;used&nbsp;to&nbsp;perform&nbsp;create,&nbsp;read,&nbsp;update,&nbsp;and&nbsp;delete&nbsp;operations.</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;DbSet&lt;Person&gt;&nbsp;Persons&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}&nbsp;
+</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode">&nbsp;<span class="hps">The code</span> <span class="hps">
+of the</span> <span class="hps">class</span> FrmMain</div>
+<div class="endscriptcode"></div>
+<div class="endscriptcode">
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Modifica script</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">// Import the framework of the Libraries
+using System;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.ComponentModel.aspx"  title="Auto generated link to System.ComponentModel">System.ComponentModel</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.aspx"  title="Auto generated link to System.Data">System.Data</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Drawing.aspx"  title="Auto generated link to System.Drawing">System.Drawing</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Windows.Forms.aspx"  title="Auto generated link to System.Windows.Forms">System.Windows.Forms</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.Validation.aspx"  title="Auto generated link to System.Data.Entity.Validation">System.Data.Entity.Validation</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;
+
+// PhoneBook project
+namespace PhoneBook
+{
+    // class FrmMain
+    public partial class FrmMain : Form
+    {
+        // FrmMain class constructor
+        public FrmMain()
+        {
+            // method InitializeComponent
+            InitializeComponent();
+        }
+
+        // Button's click event btnAdd
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            // I declare a new instance of the class PhoneBookContext
+            using (PhoneBookContext pnctx = new PhoneBookContext())
+            {
+                // I declare a new instance of the class Person
+                Person NewPerson = new Person();
+                // Enhance the name field of the Person class with the contents of txtName
+                NewPerson.NAME = this.txtName.Text;
+                // Enhance the surname field of the Person class with the contents of txtSurName
+                NewPerson.SURNAME = this.txtSurname.Text;
+                // Enhance the telephonenumber field of the Person class with the contents of txtTelephoneNumber
+                NewPerson.TELEPHONENUMBER = this.txtTelephoneNumber.Text;
+                // Enhance the mobile field of the Person class with the contents of txtMobile
+                NewPerson.MOBILE = this.txtMobile.Text;
+                // Adds the given entity to the context the Added state. 
+                //When the changes are being saved, the entities in the Added states are inserted into the database. 
+                //After the changes are saved, the object state changes to Unchanged.
+                pnctx.Persons.Add(NewPerson);
+
+                // Iterates to check the validation of input data in the database, 
+                //in case of validation errors will be displayed to the user a message or invalid fields.
+                foreach (DbEntityValidationResult validationResult in pnctx.GetValidationErrors())
+                {
+                    foreach (DbValidationError validationerror in validationResult.ValidationErrors)
+                    {
+                        MessageBox.Show(validationerror.PropertyName &#43; &quot;:&quot; &#43; validationerror.ErrorMessage.ToString());
+                        // go to exit label
+                        goto exit;
+                    }
+                }
+
+                // Saves all changes made in this context, to the underlying in database
+                pnctx.SaveChanges();
+
+            // exit label
+            exit: ;
+            }
+        }
+
+        // Button's click event btnFind
+        private void btnFind_Click(object sender, EventArgs e)
+        {
+            // Clear all rows the dgvPerson
+            this.dgvPerson.Rows.Clear();
+
+            // I declare a new instance of the class PhoneBookContext
+            using (PhoneBookContext ctx = new PhoneBookContext())
+            {
+                // I declare a new instance of the class FindPerson
+                FindPerson person = new FindPerson();
+                {
+                    // and true if checkbox rbName
+                    if (rbName.Checked.Equals(true))
+                    {
+                        // Cheque by reference to the function result dgvPerson DetailPerson depending on the type of research performed
+                        this.dgvPerson = person.DetailPerson(ctx, this.rbName.Checked,this.txtFind.Text,&quot;NAME&quot;,this.dgvPerson);
+                    }
+
+                    // and true if checkbox rbSurname
+                    if (rbSurname.Checked.Equals(true))
+                    {
+                        // Cheque by reference to the function result dgvPerson DetailPerson depending on the type of research performed
+                        this.dgvPerson = person.DetailPerson(ctx, this.rbSurname.Checked, this.txtFind.Text, &quot;SURNAME&quot;, this.dgvPerson);
+                    }
+
+                    // and true if checkbox rbPhoneNumber
+                    if (rbPhoneNumber.Checked.Equals(true))
+                    {
+                        // Cheque by reference to the function result dgvPerson DetailPerson depending on the type of research performed
+                        this.dgvPerson = person.DetailPerson(ctx, this.rbPhoneNumber.Checked, this.txtFind.Text, &quot;TELEPHONENUMBER&quot;, this.dgvPerson);
+                    }
+
+                    // and true if checkbox rbMobile
+                    if (rbMobile.Checked.Equals(true))
+                    {
+                        // Cheque by reference to the function result dgvPerson DetailPerson depending on the type of research performed
+                        this.dgvPerson = person.DetailPerson(ctx, this.rbMobile.Checked, this.txtFind.Text, &quot;MOBILE&quot;, this.dgvPerson);
+                    }
+                }
+            }
+        }
+    }
+}</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__com">//&nbsp;Import&nbsp;the&nbsp;framework&nbsp;of&nbsp;the&nbsp;Libraries</span>&nbsp;
+<span class="cs__keyword">using</span>&nbsp;System;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.ComponentModel.aspx"  title="Auto generated link to System.ComponentModel">System.ComponentModel</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.aspx"  title="Auto generated link to System.Data">System.Data</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Drawing.aspx"  title="Auto generated link to System.Drawing">System.Drawing</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Windows.Forms.aspx"  title="Auto generated link to System.Windows.Forms">System.Windows.Forms</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.Validation.aspx"  title="Auto generated link to System.Data.Entity.Validation">System.Data.Entity.Validation</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;&nbsp;
+&nbsp;
+<span class="cs__com">//&nbsp;PhoneBook&nbsp;project</span>&nbsp;
+<span class="cs__keyword">namespace</span>&nbsp;PhoneBook&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;class&nbsp;FrmMain</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;partial&nbsp;<span class="cs__keyword">class</span>&nbsp;FrmMain&nbsp;:&nbsp;Form&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;FrmMain&nbsp;class&nbsp;constructor</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;FrmMain()&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;method&nbsp;InitializeComponent</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;InitializeComponent();&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Button's&nbsp;click&nbsp;event&nbsp;btnAdd</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;btnAdd_Click(<span class="cs__keyword">object</span>&nbsp;sender,&nbsp;EventArgs&nbsp;e)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;declare&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;PhoneBookContext</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">using</span>&nbsp;(PhoneBookContext&nbsp;pnctx&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;PhoneBookContext())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;declare&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;Person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Person&nbsp;NewPerson&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;Person();&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Enhance&nbsp;the&nbsp;name&nbsp;field&nbsp;of&nbsp;the&nbsp;Person&nbsp;class&nbsp;with&nbsp;the&nbsp;contents&nbsp;of&nbsp;txtName</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewPerson.NAME&nbsp;=&nbsp;<span class="cs__keyword">this</span>.txtName.Text;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Enhance&nbsp;the&nbsp;surname&nbsp;field&nbsp;of&nbsp;the&nbsp;Person&nbsp;class&nbsp;with&nbsp;the&nbsp;contents&nbsp;of&nbsp;txtSurName</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewPerson.SURNAME&nbsp;=&nbsp;<span class="cs__keyword">this</span>.txtSurname.Text;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Enhance&nbsp;the&nbsp;telephonenumber&nbsp;field&nbsp;of&nbsp;the&nbsp;Person&nbsp;class&nbsp;with&nbsp;the&nbsp;contents&nbsp;of&nbsp;txtTelephoneNumber</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewPerson.TELEPHONENUMBER&nbsp;=&nbsp;<span class="cs__keyword">this</span>.txtTelephoneNumber.Text;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Enhance&nbsp;the&nbsp;mobile&nbsp;field&nbsp;of&nbsp;the&nbsp;Person&nbsp;class&nbsp;with&nbsp;the&nbsp;contents&nbsp;of&nbsp;txtMobile</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NewPerson.MOBILE&nbsp;=&nbsp;<span class="cs__keyword">this</span>.txtMobile.Text;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Adds&nbsp;the&nbsp;given&nbsp;entity&nbsp;to&nbsp;the&nbsp;context&nbsp;the&nbsp;Added&nbsp;state.&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//When&nbsp;the&nbsp;changes&nbsp;are&nbsp;being&nbsp;saved,&nbsp;the&nbsp;entities&nbsp;in&nbsp;the&nbsp;Added&nbsp;states&nbsp;are&nbsp;inserted&nbsp;into&nbsp;the&nbsp;database.&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//After&nbsp;the&nbsp;changes&nbsp;are&nbsp;saved,&nbsp;the&nbsp;object&nbsp;state&nbsp;changes&nbsp;to&nbsp;Unchanged.</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnctx.Persons.Add(NewPerson);&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Iterates&nbsp;to&nbsp;check&nbsp;the&nbsp;validation&nbsp;of&nbsp;input&nbsp;data&nbsp;in&nbsp;the&nbsp;database,&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//in&nbsp;case&nbsp;of&nbsp;validation&nbsp;errors&nbsp;will&nbsp;be&nbsp;displayed&nbsp;to&nbsp;the&nbsp;user&nbsp;a&nbsp;message&nbsp;or&nbsp;invalid&nbsp;fields.</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(DbEntityValidationResult&nbsp;validationResult&nbsp;<span class="cs__keyword">in</span>&nbsp;pnctx.GetValidationErrors())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(DbValidationError&nbsp;validationerror&nbsp;<span class="cs__keyword">in</span>&nbsp;validationResult.ValidationErrors)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(validationerror.PropertyName&nbsp;&#43;&nbsp;<span class="cs__string">&quot;:&quot;</span>&nbsp;&#43;&nbsp;validationerror.ErrorMessage.ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;go&nbsp;to&nbsp;exit&nbsp;label</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">goto</span>&nbsp;exit;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Saves&nbsp;all&nbsp;changes&nbsp;made&nbsp;in&nbsp;this&nbsp;context,&nbsp;to&nbsp;the&nbsp;underlying&nbsp;in&nbsp;database</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pnctx.SaveChanges();&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;exit&nbsp;label</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exit:&nbsp;;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Button's&nbsp;click&nbsp;event&nbsp;btnFind</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">void</span>&nbsp;btnFind_Click(<span class="cs__keyword">object</span>&nbsp;sender,&nbsp;EventArgs&nbsp;e)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Clear&nbsp;all&nbsp;rows&nbsp;the&nbsp;dgvPerson</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.dgvPerson.Rows.Clear();&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;declare&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;PhoneBookContext</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">using</span>&nbsp;(PhoneBookContext&nbsp;ctx&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;PhoneBookContext())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;declare&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;FindPerson</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;FindPerson&nbsp;person&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;FindPerson();&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;and&nbsp;true&nbsp;if&nbsp;checkbox&nbsp;rbName</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(rbName.Checked.Equals(<span class="cs__keyword">true</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Cheque&nbsp;by&nbsp;reference&nbsp;to&nbsp;the&nbsp;function&nbsp;result&nbsp;dgvPerson&nbsp;DetailPerson&nbsp;depending&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;research&nbsp;performed</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.dgvPerson&nbsp;=&nbsp;person.DetailPerson(ctx,&nbsp;<span class="cs__keyword">this</span>.rbName.Checked,<span class="cs__keyword">this</span>.txtFind.Text,<span class="cs__string">&quot;NAME&quot;</span>,<span class="cs__keyword">this</span>.dgvPerson);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;and&nbsp;true&nbsp;if&nbsp;checkbox&nbsp;rbSurname</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(rbSurname.Checked.Equals(<span class="cs__keyword">true</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Cheque&nbsp;by&nbsp;reference&nbsp;to&nbsp;the&nbsp;function&nbsp;result&nbsp;dgvPerson&nbsp;DetailPerson&nbsp;depending&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;research&nbsp;performed</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.dgvPerson&nbsp;=&nbsp;person.DetailPerson(ctx,&nbsp;<span class="cs__keyword">this</span>.rbSurname.Checked,&nbsp;<span class="cs__keyword">this</span>.txtFind.Text,&nbsp;<span class="cs__string">&quot;SURNAME&quot;</span>,&nbsp;<span class="cs__keyword">this</span>.dgvPerson);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;and&nbsp;true&nbsp;if&nbsp;checkbox&nbsp;rbPhoneNumber</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(rbPhoneNumber.Checked.Equals(<span class="cs__keyword">true</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Cheque&nbsp;by&nbsp;reference&nbsp;to&nbsp;the&nbsp;function&nbsp;result&nbsp;dgvPerson&nbsp;DetailPerson&nbsp;depending&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;research&nbsp;performed</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.dgvPerson&nbsp;=&nbsp;person.DetailPerson(ctx,&nbsp;<span class="cs__keyword">this</span>.rbPhoneNumber.Checked,&nbsp;<span class="cs__keyword">this</span>.txtFind.Text,&nbsp;<span class="cs__string">&quot;TELEPHONENUMBER&quot;</span>,&nbsp;<span class="cs__keyword">this</span>.dgvPerson);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;and&nbsp;true&nbsp;if&nbsp;checkbox&nbsp;rbMobile</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(rbMobile.Checked.Equals(<span class="cs__keyword">true</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Cheque&nbsp;by&nbsp;reference&nbsp;to&nbsp;the&nbsp;function&nbsp;result&nbsp;dgvPerson&nbsp;DetailPerson&nbsp;depending&nbsp;on&nbsp;the&nbsp;type&nbsp;of&nbsp;research&nbsp;performed</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.dgvPerson&nbsp;=&nbsp;person.DetailPerson(ctx,&nbsp;<span class="cs__keyword">this</span>.rbMobile.Checked,&nbsp;<span class="cs__keyword">this</span>.txtFind.Text,&nbsp;<span class="cs__string">&quot;MOBILE&quot;</span>,&nbsp;<span class="cs__keyword">this</span>.dgvPerson);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode">&nbsp;<span class="hps">The code</span> <span class="hps">
+of the</span> <span class="hps">class</span> FindPerson</div>
+<div class="endscriptcode"></div>
+<div class="endscriptcode">
+<div class="scriptcode">
+<div class="pluginEditHolder" pluginCommand="mceScriptCode">
+<div class="title"><span>C#</span></div>
+<div class="pluginLinkHolder"><span class="pluginEditHolderLink">Modifica script</span>|<span class="pluginRemoveHolderLink">Remove</span></div>
+<span class="hidden">csharp</span>
+<pre class="hidden">// Import the framework of the Libraries
+using System;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Windows.Forms.aspx"  title="Auto generated link to System.Windows.Forms">System.Windows.Forms</a>;
+using <a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;
+
+// PhoneBook project
+namespace PhoneBook
+{
+    // class FindPerson
+    class FindPerson
+    {
+        // private field of type PhooneBookContext
+        private PhoneBookContext ctxFind { get; set; }
+        // private field of type bool
+        private bool Find {get;set;}
+        // private field of type string
+        private string Charater { get; set; }
+        // private field of type DataGridView
+        private DataGridView Data { get; set; }
+        // private field of type string
+        private string TypeSearch { get; set; }
+
+        // LinqToEntities using search function, which returns a DataGridView control containing the search results
+        public DataGridView DetailPerson(PhoneBookContext ctx,bool Find,string charater,string search,DataGridView data)
+        {
+            // Enhance the private variables with the parameters of the function DetailPerson
+            this.ctxFind = ctx;
+            this.Find = Find;
+            this.Charater = charater;
+            this.Data = data;
+            this.TypeSearch = search;
+
+            // I declare a new instance of the class PhoneBookContext
+            using (PhoneBookContext ctxFind = new PhoneBookContext())
+            {
+                // if the variable find and true charater and the variable is not empty or null
+                if (this.Find.Equals(true) &amp;&amp;  ! string.IsNullOrEmpty(this.Charater))
+                {
+                    // if the value of the variable equal to TypeSearch NAME 
+                    if (this.TypeSearch.Equals(&quot;NAME&quot;))
+                    {
+                        // I run the query LinqToEntities extrapolating the data starting with a certain letter in the variable specified in the entity name charater
+                        var query = from c in ctx.Persons
+                                    where c.NAME.StartsWith(this.Charater)
+                                    select c;
+
+                        // I make the iteration variable in the variable query person
+                        foreach (var person in query)
+                        {
+                            // I post all the occurrences found in the variable of type DataGridView Date
+                            this.Data.Rows.Add(person.NAME, person.SURNAME, person.TELEPHONENUMBER, person.MOBILE);
+                        }
+                    }
+
+                    // if the value of the variable equal to TypeSearch SURNAME 
+                    if (this.TypeSearch.Equals(&quot;SURNAME&quot;))
+                    {
+                        // I run the query LinqToEntities extrapolating the data starting with a certain letter in the variable specified in the entity name charater
+                        var query = from c in ctx.Persons
+                                    where c.SURNAME.StartsWith(this.Charater)
+                                    select c;
+
+                        // I make the iteration variable in the variable query person
+                        foreach (var person in query)
+                        {
+                            // I post all the occurrences found in the variable of type DataGridView Date
+                            this.Data.Rows.Add(person.NAME, person.SURNAME, person.TELEPHONENUMBER, person.MOBILE);
+                        }
+                    }
+
+                    // if the value of the variable equal to TypeSearch TELEPHONENUMBER 
+                    if (this.TypeSearch.Equals(&quot;TELEPHONENUMBER&quot;))
+                    {
+                        // I run the query LinqToEntities extrapolating the data starting with a certain letter in the variable specified in the entity name charater
+                        var query = from c in ctx.Persons
+                                    where c.TELEPHONENUMBER.StartsWith(this.Charater)
+                                    select c;
+
+                        // I make the iteration variable in the variable query person
+                        foreach (var person in query)
+                        {
+                            // I post all the occurrences found in the variable of type DataGridView Date
+                            this.Data.Rows.Add(person.NAME, person.SURNAME, person.TELEPHONENUMBER, person.MOBILE);
+                        }
+                    }
+
+                    // if the value of the variable equal to TypeSearch MOBILE
+                    if (this.TypeSearch.Equals(&quot;MOBILE&quot;))
+                    {
+                        // I run the query LinqToEntities extrapolating the data starting with a certain letter in the variable specified in the entity name charater
+                        var query = from c in ctx.Persons
+                                    where c.MOBILE.StartsWith(this.Charater)
+                                    select c;
+
+                        // I make the iteration variable in the variable query person
+                        foreach (var person in query)
+                        {
+                            // I post all the occurrences found in the variable of type DataGridView Date
+                            this.Data.Rows.Add(person.NAME, person.SURNAME, person.TELEPHONENUMBER, person.MOBILE);
+                        }
+                    }
+                }
+
+                // In case of missing parameters
+                else
+                {
+                    // Display message to user
+                    MessageBox.Show(&quot;Insert a Name,SurName,TelephoneNumber or Mobile for Person&quot;,Application.ProductName.ToString());
+                }
+            }
+
+            // Returns the result of the function
+            return this.Data;
+        }
+    }
+}
+</pre>
+<div class="preview">
+<pre class="csharp"><span class="cs__com">//&nbsp;Import&nbsp;the&nbsp;framework&nbsp;of&nbsp;the&nbsp;Libraries</span>&nbsp;
+<span class="cs__keyword">using</span>&nbsp;System;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Collections.Generic.aspx"  title="Auto generated link to System.Collections.Generic">System.Collections.Generic</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Linq.aspx"  title="Auto generated link to System.Linq">System.Linq</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Text.aspx"  title="Auto generated link to System.Text">System.Text</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Windows.Forms.aspx"  title="Auto generated link to System.Windows.Forms">System.Windows.Forms</a>;&nbsp;
+<span class="cs__keyword">using</span>&nbsp;<a class="libraryLink" href="http://msdn.microsoft.com/en-US/library/System.Data.Entity.aspx"  title="Auto generated link to System.Data.Entity">System.Data.Entity</a>;&nbsp;
+&nbsp;
+<span class="cs__com">//&nbsp;PhoneBook&nbsp;project</span>&nbsp;
+<span class="cs__keyword">namespace</span>&nbsp;PhoneBook&nbsp;
+{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;class&nbsp;FindPerson</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">class</span>&nbsp;FindPerson&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;PhooneBookContext</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;PhoneBookContext&nbsp;ctxFind&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;bool</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">bool</span>&nbsp;Find&nbsp;{<span class="cs__keyword">get</span>;<span class="cs__keyword">set</span>;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;Charater&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;DataGridView</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;DataGridView&nbsp;Data&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;private&nbsp;field&nbsp;of&nbsp;type&nbsp;string</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">private</span>&nbsp;<span class="cs__keyword">string</span>&nbsp;TypeSearch&nbsp;{&nbsp;<span class="cs__keyword">get</span>;&nbsp;<span class="cs__keyword">set</span>;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;LinqToEntities&nbsp;using&nbsp;search&nbsp;function,&nbsp;which&nbsp;returns&nbsp;a&nbsp;DataGridView&nbsp;control&nbsp;containing&nbsp;the&nbsp;search&nbsp;results</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">public</span>&nbsp;DataGridView&nbsp;DetailPerson(PhoneBookContext&nbsp;ctx,<span class="cs__keyword">bool</span>&nbsp;Find,<span class="cs__keyword">string</span>&nbsp;charater,<span class="cs__keyword">string</span>&nbsp;search,DataGridView&nbsp;data)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Enhance&nbsp;the&nbsp;private&nbsp;variables&nbsp;with&nbsp;the&nbsp;parameters&nbsp;of&nbsp;the&nbsp;function&nbsp;DetailPerson</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.ctxFind&nbsp;=&nbsp;ctx;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Find&nbsp;=&nbsp;Find;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Charater&nbsp;=&nbsp;charater;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Data&nbsp;=&nbsp;data;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.TypeSearch&nbsp;=&nbsp;search;&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;declare&nbsp;a&nbsp;new&nbsp;instance&nbsp;of&nbsp;the&nbsp;class&nbsp;PhoneBookContext</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">using</span>&nbsp;(PhoneBookContext&nbsp;ctxFind&nbsp;=&nbsp;<span class="cs__keyword">new</span>&nbsp;PhoneBookContext())&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;if&nbsp;the&nbsp;variable&nbsp;find&nbsp;and&nbsp;true&nbsp;charater&nbsp;and&nbsp;the&nbsp;variable&nbsp;is&nbsp;not&nbsp;empty&nbsp;or&nbsp;null</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(<span class="cs__keyword">this</span>.Find.Equals(<span class="cs__keyword">true</span>)&nbsp;&amp;&amp;&nbsp;&nbsp;!&nbsp;<span class="cs__keyword">string</span>.IsNullOrEmpty(<span class="cs__keyword">this</span>.Charater))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;if&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;variable&nbsp;equal&nbsp;to&nbsp;TypeSearch&nbsp;NAME&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(<span class="cs__keyword">this</span>.TypeSearch.Equals(<span class="cs__string">&quot;NAME&quot;</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;run&nbsp;the&nbsp;query&nbsp;LinqToEntities&nbsp;extrapolating&nbsp;the&nbsp;data&nbsp;starting&nbsp;with&nbsp;a&nbsp;certain&nbsp;letter&nbsp;in&nbsp;the&nbsp;variable&nbsp;specified&nbsp;in&nbsp;the&nbsp;entity&nbsp;name&nbsp;charater</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;from&nbsp;c&nbsp;<span class="cs__keyword">in</span>&nbsp;ctx.Persons&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where&nbsp;c.NAME.StartsWith(<span class="cs__keyword">this</span>.Charater)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select&nbsp;c;&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;make&nbsp;the&nbsp;iteration&nbsp;variable&nbsp;in&nbsp;the&nbsp;variable&nbsp;query&nbsp;person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(var&nbsp;person&nbsp;<span class="cs__keyword">in</span>&nbsp;query)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;post&nbsp;all&nbsp;the&nbsp;occurrences&nbsp;found&nbsp;in&nbsp;the&nbsp;variable&nbsp;of&nbsp;type&nbsp;DataGridView&nbsp;Date</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Data.Rows.Add(person.NAME,&nbsp;person.SURNAME,&nbsp;person.TELEPHONENUMBER,&nbsp;person.MOBILE);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;if&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;variable&nbsp;equal&nbsp;to&nbsp;TypeSearch&nbsp;SURNAME&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(<span class="cs__keyword">this</span>.TypeSearch.Equals(<span class="cs__string">&quot;SURNAME&quot;</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;run&nbsp;the&nbsp;query&nbsp;LinqToEntities&nbsp;extrapolating&nbsp;the&nbsp;data&nbsp;starting&nbsp;with&nbsp;a&nbsp;certain&nbsp;letter&nbsp;in&nbsp;the&nbsp;variable&nbsp;specified&nbsp;in&nbsp;the&nbsp;entity&nbsp;name&nbsp;charater</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;from&nbsp;c&nbsp;<span class="cs__keyword">in</span>&nbsp;ctx.Persons&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where&nbsp;c.SURNAME.StartsWith(<span class="cs__keyword">this</span>.Charater)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select&nbsp;c;&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;make&nbsp;the&nbsp;iteration&nbsp;variable&nbsp;in&nbsp;the&nbsp;variable&nbsp;query&nbsp;person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(var&nbsp;person&nbsp;<span class="cs__keyword">in</span>&nbsp;query)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;post&nbsp;all&nbsp;the&nbsp;occurrences&nbsp;found&nbsp;in&nbsp;the&nbsp;variable&nbsp;of&nbsp;type&nbsp;DataGridView&nbsp;Date</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Data.Rows.Add(person.NAME,&nbsp;person.SURNAME,&nbsp;person.TELEPHONENUMBER,&nbsp;person.MOBILE);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;if&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;variable&nbsp;equal&nbsp;to&nbsp;TypeSearch&nbsp;TELEPHONENUMBER&nbsp;</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(<span class="cs__keyword">this</span>.TypeSearch.Equals(<span class="cs__string">&quot;TELEPHONENUMBER&quot;</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;run&nbsp;the&nbsp;query&nbsp;LinqToEntities&nbsp;extrapolating&nbsp;the&nbsp;data&nbsp;starting&nbsp;with&nbsp;a&nbsp;certain&nbsp;letter&nbsp;in&nbsp;the&nbsp;variable&nbsp;specified&nbsp;in&nbsp;the&nbsp;entity&nbsp;name&nbsp;charater</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;from&nbsp;c&nbsp;<span class="cs__keyword">in</span>&nbsp;ctx.Persons&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where&nbsp;c.TELEPHONENUMBER.StartsWith(<span class="cs__keyword">this</span>.Charater)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select&nbsp;c;&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;make&nbsp;the&nbsp;iteration&nbsp;variable&nbsp;in&nbsp;the&nbsp;variable&nbsp;query&nbsp;person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(var&nbsp;person&nbsp;<span class="cs__keyword">in</span>&nbsp;query)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;post&nbsp;all&nbsp;the&nbsp;occurrences&nbsp;found&nbsp;in&nbsp;the&nbsp;variable&nbsp;of&nbsp;type&nbsp;DataGridView&nbsp;Date</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Data.Rows.Add(person.NAME,&nbsp;person.SURNAME,&nbsp;person.TELEPHONENUMBER,&nbsp;person.MOBILE);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;if&nbsp;the&nbsp;value&nbsp;of&nbsp;the&nbsp;variable&nbsp;equal&nbsp;to&nbsp;TypeSearch&nbsp;MOBILE</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">if</span>&nbsp;(<span class="cs__keyword">this</span>.TypeSearch.Equals(<span class="cs__string">&quot;MOBILE&quot;</span>))&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;run&nbsp;the&nbsp;query&nbsp;LinqToEntities&nbsp;extrapolating&nbsp;the&nbsp;data&nbsp;starting&nbsp;with&nbsp;a&nbsp;certain&nbsp;letter&nbsp;in&nbsp;the&nbsp;variable&nbsp;specified&nbsp;in&nbsp;the&nbsp;entity&nbsp;name&nbsp;charater</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var&nbsp;query&nbsp;=&nbsp;from&nbsp;c&nbsp;<span class="cs__keyword">in</span>&nbsp;ctx.Persons&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;where&nbsp;c.MOBILE.StartsWith(<span class="cs__keyword">this</span>.Charater)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;select&nbsp;c;&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;make&nbsp;the&nbsp;iteration&nbsp;variable&nbsp;in&nbsp;the&nbsp;variable&nbsp;query&nbsp;person</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">foreach</span>&nbsp;(var&nbsp;person&nbsp;<span class="cs__keyword">in</span>&nbsp;query)&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;I&nbsp;post&nbsp;all&nbsp;the&nbsp;occurrences&nbsp;found&nbsp;in&nbsp;the&nbsp;variable&nbsp;of&nbsp;type&nbsp;DataGridView&nbsp;Date</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">this</span>.Data.Rows.Add(person.NAME,&nbsp;person.SURNAME,&nbsp;person.TELEPHONENUMBER,&nbsp;person.MOBILE);&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;In&nbsp;case&nbsp;of&nbsp;missing&nbsp;parameters</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">else</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Display&nbsp;message&nbsp;to&nbsp;user</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MessageBox.Show(<span class="cs__string">&quot;Insert&nbsp;a&nbsp;Name,SurName,TelephoneNumber&nbsp;or&nbsp;Mobile&nbsp;for&nbsp;Person&quot;</span>,Application.ProductName.ToString());&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__com">//&nbsp;Returns&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;function</span>&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cs__keyword">return</span>&nbsp;<span class="cs__keyword">this</span>.Data;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;
+}&nbsp;
+</pre>
+</div>
+</div>
+</div>
+<div class="endscriptcode"></div>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+<h1>More Information</h1>
+<p><em>For more information <a href="http://community.visual-basic.it/carmelolamonica/">
+http://community.visual-basic.it/carmelolamonica/</a></em></p>
+
+</div>
+
+
+    </div>
+</body>
+</html>

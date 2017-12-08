@@ -1,0 +1,10 @@
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.FrmMain.resources
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.Properties.Resources.resources
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.exe
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.pdb
+c:\users\carmelo la monica\documents\visual studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config

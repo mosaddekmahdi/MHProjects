@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Step">
+<Data>
+    <Name>StartUp Browser</Name>
+    <Description>Cannot&amp;nbsp;identify&amp;nbsp;the&amp;nbsp;object&amp;nbsp;"StartUp&amp;nbsp;Browser"&amp;nbsp;(of&amp;nbsp;class&amp;nbsp;Browser).&lt;br/&gt;Verify&amp;nbsp;that&amp;nbsp;this&amp;nbsp;object's&amp;nbsp;properties&amp;nbsp;match&amp;nbsp;an&amp;nbsp;object&amp;nbsp;currently&amp;nbsp;displayed&amp;nbsp;in&amp;nbsp;your&amp;nbsp;application.&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Mercury Class = Browser&lt;br&gt;</Description>
+    <StartTime>2016-11-19 08:50:18</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[StartUp Browser]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Cannot&nbsp;identify&nbsp;the&nbsp;object&nbsp;"StartUp&nbsp;Browser"&nbsp;(of&nbsp;class&nbsp;Browser).<br/>Verify&nbsp;that&nbsp;this&nbsp;object's&nbsp;properties&nbsp;match&nbsp;an&nbsp;object&nbsp;currently&nbsp;displayed&nbsp;in&nbsp;your&nbsp;application.]]></OperationData>
+      </TestObject>
+      <IconKey>3c2ab1cfe5f0441ca98b7b7c167a343c</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-19 08:50:19</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>156e2d7c0b19471ca80e2b6fee38a824</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-11-19 08:49:37</StartTime>
+    <Duration>43</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>58673a40a4be42958cecf00cda304f0d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Microsoft Internet Explorer</Name>
+        <Path>C:\Program Files\Internet Explorer\IEXPLORE.EXE</Path>
+        <Version>11</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://www.facebook.com</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest2</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2016-11-19 08:49:31</StartTime>
+    <Duration>49</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>2c4d8992079c4bfda71133e86e0d5d11</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>zahid</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3970</TotalMemory>
+      <HostName>LAPTOP-VE86FS4A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2016-11-19 08:49:31</RunStartTime>
+    <Timezone>-08:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

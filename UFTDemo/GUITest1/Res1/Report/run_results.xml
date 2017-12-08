@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-19 10:23:37</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>4d0bc1979bb54ed4a7c4ac58258070fd</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-11-19 10:23:37</StartTime>
+    <Duration>0</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>5ac80d5231f94c60a774a0d7066e8ebf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2016-11-19 10:23:36</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>0c23434b11f3454c9ac4f28ec8d66731</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>zahid</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3970</TotalMemory>
+      <HostName>LAPTOP-VE86FS4A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2016-11-19 10:23:36</RunStartTime>
+    <Timezone>-08:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

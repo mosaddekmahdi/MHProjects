@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Use this file to deploy some handlers/chains and services      --><!-- Two ways to do this:                                           --><!--   java org.apache.axis.client.AdminClient deploy.wsdd          --><!--      after the axis server is running                          --><!-- or                                                             --><!--   java org.apache.axis.utils.Admin client|server deploy.wsdd   --><!--      from the same directory that the Axis engine runs         --><deployment xmlns="http://xml.apache.org/axis/wsdd/" xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+
+  <!-- Services from HiThereService WSDL service -->
+
+  <service name="HiThere" provider="java:RPC" style="wrapped" use="literal">
+      <parameter name="wsdlTargetNamespace" value="http://webservices.javapostforlearning.arpit.org"/>
+      <parameter name="wsdlServiceElement" value="HiThereService"/>
+      <parameter name="schemaQualified" value="http://webservices.javapostforlearning.arpit.org"/>
+      <parameter name="wsdlServicePort" value="HiThere"/>
+      <parameter name="className" value="org.arpit.javapostforlearning.webservices.HiThere"/>
+      <parameter name="wsdlPortType" value="HiThere"/>
+      <parameter name="typeMappingVersion" value="1.2"/>
+      <operation xmlns:operNS="http://webservices.javapostforlearning.arpit.org" xmlns:retNS="http://webservices.javapostforlearning.arpit.org" xmlns:rtns="http://www.w3.org/2001/XMLSchema" name="sayHiThere" qname="operNS:sayHiThere" returnQName="retNS:sayHiThereReturn" returnType="rtns:string" soapAction="">
+        <parameter xmlns:pns="http://webservices.javapostforlearning.arpit.org" xmlns:tns="http://www.w3.org/2001/XMLSchema" qname="pns:name" type="tns:string"/>
+      </operation>
+      <parameter name="allowedMethods" value="sayHiThere"/>
+
+  </service>
+</deployment>

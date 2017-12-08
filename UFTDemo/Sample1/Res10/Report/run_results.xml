@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-19 07:18:29</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>1e4b821160684d85808948f7f69b827d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Sample1</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2016-11-19 07:18:28</StartTime>
+    <Duration>10</Duration>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>db81e22b5cf94785855929e10a8deca7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>zahid</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3970</TotalMemory>
+      <HostName>LAPTOP-VE86FS4A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res10</ResultName>
+    <RunStartTime>2016-11-19 07:18:28</RunStartTime>
+    <Timezone>-08:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

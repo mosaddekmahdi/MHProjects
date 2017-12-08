@@ -1,0 +1,26 @@
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.exe
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug\PhoneBook.pdb
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.FrmMain.resources
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.exe
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\obj\x86\Debug\PhoneBook.pdb
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.exe
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.pdb
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.FrmMain.resources
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\bin\Debug\PhoneBook.exe.config
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.FrmMain.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\PhoneBook.Properties.Resources.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\Example of Data Entry\C#\PhoneBook\obj\x86\Debug\GenerateResource.write.1.tlog

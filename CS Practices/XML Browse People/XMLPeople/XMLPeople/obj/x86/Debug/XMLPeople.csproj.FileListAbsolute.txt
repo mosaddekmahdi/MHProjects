@@ -1,0 +1,23 @@
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.Form1.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.Properties.Resources.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\bin\Debug\XMLPeople.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\bin\Debug\XMLPeople.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\bin\Debug\XMLPeople.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\bin\Debug\XMLPeople.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.Form1.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.Form2.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.Properties.Resources.resources
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\C#\XML\XMLPeople\XMLPeople\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mhossain2\Desktop\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.exe
+C:\Users\mhossain2\Desktop\XML\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.pdb
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML Browse People\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.exe
+C:\Users\mhossain2\Dropbox\Public\My VisualStudio\CS Practices\XML Browse People\XMLPeople\XMLPeople\obj\x86\Debug\XMLPeople.pdb

@@ -1,0 +1,19 @@
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\bin\Debug\PhoneBook.Vb.exe
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\bin\Debug\PhoneBook.Vb.pdb
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\bin\Debug\PhoneBook.Vb.xml
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.Resources.resources
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.exe
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.xml
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.pdb
+C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.FrmMain.resources
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.exe
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.xml
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.pdb
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.FrmMain.resources
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\PhoneBook.Vb.Resources.resources
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\Example of Data Entry\C#\PhoneBook.Vb\obj\x86\Debug\GenerateResource.write.1.tlog

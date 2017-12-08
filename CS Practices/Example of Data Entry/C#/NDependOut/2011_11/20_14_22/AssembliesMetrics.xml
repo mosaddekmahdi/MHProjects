@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<AssembliesMetrics>
+  <Assembly Assembly="PhoneBook v1.0.0.0" NTypes="7" NAbstractTypes="0" NILInstructionInAsm="1968" NbLinesOfCodeInAsm="264" NbLinesOfCommentInAsm="215" PercentageCommentInAsm="44" PercentageCoverageInAsm="-" AfferentCoupling="0" EfferentCoupling="66" RelationalCohesion="1.14" Instability="1" Abstractness="0" DistFrMainSeq="0" NormDistFrMainSeq="0" />
+  <Assembly Assembly="PhoneBook.Vb v1.0.0.0" NTypes="12" NAbstractTypes="0" NILInstructionInAsm="1355" NbLinesOfCodeInAsm="59" NbLinesOfCommentInAsm="-" PercentageCommentInAsm="-" PercentageCoverageInAsm="-" AfferentCoupling="0" EfferentCoupling="69" RelationalCohesion="1.33" Instability="1" Abstractness="0" DistFrMainSeq="0" NormDistFrMainSeq="0" />
+</AssembliesMetrics>

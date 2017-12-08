@@ -1,0 +1,52 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+@{
+    ViewBag.Title = "Pagination_With_Data_Table_issue";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>
+    Pagination_With_Data_Table_issue</h2>
+    
+<style type="text/css" title="currentStyle">
+			@@import "http://datatables.net/release-datatables/media/css/demo_page.css";
+			@@import "http://datatables.net/release-datatables/media/css/demo_table.css";
+		</style>
+<script type="text/javascript" language="javascript" src="http://datatables.net/release-datatables/media/js/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="http://datatables.net/release-datatables/media/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf-8">
+    $(document).ready(function () {
+        $('#example').dataTable({
+            "bServerSide": true,
+            "bProcessing": true,
+            "sPaginationType": "full_numbers",
+            "sAjaxSource": '@Url.Action("Pagination_With_Data_Table_issue_getData", "Home")'
+        });
+    });
+</script>
+<div id="dynamic">
+<table cellpadding="0" cellspacing="0" border="0" class="display" id="example">
+	<thead>
+		<tr>
+			<th width="20%">Rendering engine</th>
+			<th width="25%">Browser</th>
+			<th width="25%">Platform(s)</th>
+			<th width="15%">Engine version</th>
+			<th width="15%">CSS grade</th>
+		</tr>
+	</thead>
+	<tbody>
+	</tbody>
+	<tfoot>
+		<tr>
+			<th>Rendering engine</th>
+			<th>Browser</th>
+			<th>Platform(s)</th>
+			<th>Engine version</th>
+			<th>CSS grade</th>
+		</tr>
+	</tfoot>
+</table>
+</div>
+

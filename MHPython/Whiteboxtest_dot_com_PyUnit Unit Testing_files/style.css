@@ -1,0 +1,39 @@
+.company{
+	font-family: verdana,arial,helvetica;
+	font-size: 15px;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+.slogan {
+	font-family: verdana,arial,helvetica;
+	font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.magin {
+	padding:5px;
+}
+table { 
+	font-size:100%;
+} 
+body { font-size:76%;
+	margin:0;
+	padding:0; 
+	background-image:url(images/bgindex.jpg); 
+	background-position:top; 
+	background-repeat:repeat-x;	
+	background-color:#C7C7A8;
+}
+
+a:link {color: #9D810F; text-decoration: underline;}
+a:visited {color: #9D810F; text-decoration: underline;}
+a:hover {color: #DBC50F; text-decoration: underline;}
+a:active {color: #DBC50F; text-decoration: underline;}
+
+.bgmenu{ background-color:#DAD8C6;}
+.line01{ background-color:#FFFFFF;}
+.line02{ background-color:#E3E1BC;}
+.bgtop{ background-color:#000000;}
+.bgbottom{ background-image:url(images/bgbottom.jpg);}

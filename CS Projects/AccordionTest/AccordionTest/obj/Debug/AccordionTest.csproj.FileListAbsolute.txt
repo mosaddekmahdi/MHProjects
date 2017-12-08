@@ -1,0 +1,7 @@
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\bin\AccordionTest.dll
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\bin\AccordionTest.pdb
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\bin\EntityFramework.dll
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\bin\EntityFramework.xml
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\obj\Debug\AccordionTest.dll
+d:\documents\visual studio 2010\Projects\AccordionTest\AccordionTest\obj\Debug\AccordionTest.pdb

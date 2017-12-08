@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="DCarS">
+</Property><Property Name="Solution File" Value="C:\Users\mhaque\Desktop\DCarS\DCarS.sln">
+</Property><Property Name="Date" Value="Wednesday, September 05, 2012">
+</Property><Property Name="Time" Value="11:39 AM">
+</Property></Properties><Event ErrorLevel="0" Project="DCarS" Source="DCarS\DCarS.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="DCarS" Source="DCarS\DCarS.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="DCarS" Source="DCarS\DCarS.csproj" Description="The project file 'C:\Users\mhaque\Desktop\DCarS\DCarS\DCarS.csproj' cannot be opened.&#xA;&#xA;The project type is not supported by this installation.">
+</Event><Event ErrorLevel="0" Project="" Source="DCarS.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="DCarS.sln" Description="Converted">
+</Event></UpgradeLog>

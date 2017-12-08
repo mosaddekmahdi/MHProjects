@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=LearnConcurrency/src&lt;com.javacodegeeks.core.concurrency.executorservicetest{MyThread.java[MyThread" modifiers="1" timestamp="1461100199463"/>
+<typeInfo handle="=SimpleSOAPExample/src&lt;org.arpit.javapostforlearning.webservices{HelloWorld.java[HelloWorld" modifiers="1" timestamp="1462423382712"/>
+<typeInfo handle="=SimpleSOAPExample/src&lt;org.arpit.javapostforlearning.webservices{HiThere.java[HiThere" modifiers="1" timestamp="1462425648437"/>
+<typeInfo handle="=SimpleSOAPExampleClient/C:\/Users\/shali_000\/workspace\/LearnJava\/SimpleSOAPExampleClient\/WebContent\/WEB-INF\/lib\/axis.jar&lt;org.apache.axis.wsdl(Java2WSDL.class[Java2WSDL" modifiers="33" timestamp="1462424831030"/>
+<typeInfo handle="=vogellaWebApp/C:\/Users\/shali_000\/.m2\/repository\/com\/sun\/jersey\/jersey-client\/1.18.4\/jersey-client-1.18.4.jar&lt;com.sun.jersey.api.client(Client.class[Client" modifiers="33" timestamp="1462855569065"/>
+<typeInfo handle="=AngularjsJAXRSCRUD/C:\/Program Files\/Java\/jdk1.7.0_65\/jre\/lib\/rt.jar&lt;java.sql(Connection.class[Connection" modifiers="1537" timestamp="1405745576048"/>
+<typeInfo handle="=messenger/C:\/Users\/shali_000\/.m2\/repository\/org\/eclipse\/persistence\/org.eclipse.persistence.core\/2.5.0\/org.eclipse.persistence.core-2.5.0.jar&lt;org.eclipse.persistence.exceptions(ExceptionHandler.class[ExceptionHandler" modifiers="1537" timestamp="1473629391242"/>
+<typeInfo handle="=messenger/C:\/Users\/shali_000\/.m2\/repository\/javax\/ws\/rs\/javax.ws.rs-api\/2.0.1\/javax.ws.rs-api-2.0.1.jar&lt;javax.ws.rs.ext(ExceptionMapper.class[ExceptionMapper" modifiers="1537" timestamp="1473563966806"/>
+<typeInfo handle="=advanced-jaxrs-03/C:\/Users\/shali_000\/.m2\/repository\/org\/glassfish\/jersey\/bundles\/jaxrs-ri\/2.16\/jaxrs-ri-2.16.jar&lt;javax.ws.rs.ext(ParamConverterProvider.class[ParamConverterProvider" modifiers="1537" timestamp="1474158349803"/>
+<typeInfo handle="=advanced-jaxrs-03/C:\/Users\/shali_000\/.m2\/repository\/org\/glassfish\/jersey\/bundles\/jaxrs-ri\/2.16\/jaxrs-ri-2.16.jar&lt;javax.ws.rs.ext(ParamConverter.class[ParamConverter" modifiers="1537" timestamp="1474158349803"/>
+</typeInfoHistroy>

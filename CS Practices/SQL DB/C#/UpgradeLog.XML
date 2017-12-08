@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="sql DB example cs">
+</Property><Property Name="Solution File" Value="C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\sql DB example cs.sln">
+</Property><Property Name="Date" Value="Tuesday, November 13, 2012">
+</Property><Property Name="Time" Value="0:14 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="sql DB example cs.sln" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs.sln">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\sql DB example cs.csproj" Description="Project file successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\sql DB example cs.csproj">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\sql DB example cs.csproj.user" Description="Project user file successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\sql DB example cs.csproj.user">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Form1.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Form1.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Form1.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Program.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Program.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Properties\Settings.settings" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Form1.resx" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Form1.resx">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\Properties\Resources.resx" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\SQL DB Example in CS\C#\Backup\sql DB example cs\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="sql DB example cs" Source="sql DB example cs\sql DB example cs.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="sql DB example cs" Source="sql DB example cs\sql DB example cs.csproj" Description="Converted">
+</Event><Event ErrorLevel="2" Project="sql DB example cs" Source="sql DB example cs\sql DB example cs.csproj" Description="">
+</Event><Event ErrorLevel="0" Project="" Source="sql DB example cs.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="sql DB example cs.sln" Description="Converted">
+</Event></UpgradeLog>

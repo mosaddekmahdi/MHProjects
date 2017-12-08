@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tic-Tac-Toe", "Tic-Tac-Toe.csproj", "{818D70E3-7EED-479B-B71C-334F808A3657}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{818D70E3-7EED-479B-B71C-334F808A3657}.Debug.ActiveCfg = Debug|.NET
+		{818D70E3-7EED-479B-B71C-334F808A3657}.Debug.Build.0 = Debug|.NET
+		{818D70E3-7EED-479B-B71C-334F808A3657}.Release.ActiveCfg = Release|.NET
+		{818D70E3-7EED-479B-B71C-334F808A3657}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

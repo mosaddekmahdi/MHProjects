@@ -1,0 +1,5 @@
+d:\documents\visual studio 2010\Projects\TestInterfaceService\TestInterfaceWebService\bin\TestInterfaceWebService.dll
+d:\documents\visual studio 2010\Projects\TestInterfaceService\TestInterfaceWebService\bin\TestInterfaceWebService.pdb
+d:\documents\visual studio 2010\Projects\TestInterfaceService\TestInterfaceWebService\obj\Debug\ResolveAssemblyReference.cache
+d:\documents\visual studio 2010\Projects\TestInterfaceService\TestInterfaceWebService\obj\Debug\TestInterfaceWebService.dll
+d:\documents\visual studio 2010\Projects\TestInterfaceService\TestInterfaceWebService\obj\Debug\TestInterfaceWebService.pdb

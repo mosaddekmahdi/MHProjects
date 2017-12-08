@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>11/20/2011 14:22:02 Begin full analysis with NDepend v3.7.0</Info>
+  <Info>No Baseline for Comparison loaded.</Info>
+  <Warning>Cant' load the assembly {EntityFramework}:
+Can't find the .NET assembly {EntityFramework} in specified folders. 
+Has it been compiled properly? 
+Is the NDepend project missing the containing folder of the .NET assembly?</Warning>
+  <Info>Concurrent mode</Info>
+  <Info>Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v4.0.30319} 
+   System.Windows.Forms.dll   v4.0.0.0
+   mscorlib.dll   v4.0.0.0
+   System.dll   v4.0.0.0
+   System.Drawing.dll   v4.0.0.0
+   System.ComponentModel.DataAnnotations.dll   v4.0.0.0
+   System.Core.dll   v4.0.0.0
+   Microsoft.VisualBasic.dll   v10.0.0.0
+   System.Xml.Linq.dll   v4.0.0.0</Info>
+  <Warning>No application or third party assembly found in directory {C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF}</Warning>
+  <Info>Assemblies loaded from {C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook\bin\Debug} 
+   PhoneBook.exe   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\bin\Debug} 
+   PhoneBook.Vb.exe   v1.0.0.0</Info>
+  <Warning>Assembly {EntityFramework} is referenced by {PhoneBook} but is not found.</Warning>
+  <Info>9 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 CQL rule has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>11/20/2011 14:22:04 Analyse dependencies of your application.</Info>
+  <Warning>The source file {C:\Users\Carmelo La Monica\Documents\Visual Studio 2010\Projects\PhoneBook\PhoneBook.Vb\Form1.Designer.vb} referenced by the PDB file of the assembly {PhoneBook.Vb} does not exist.</Warning>
+  <Info>11/20/2011 14:22:04 Building the report (standard).</Info>
+</InfoWarnings>

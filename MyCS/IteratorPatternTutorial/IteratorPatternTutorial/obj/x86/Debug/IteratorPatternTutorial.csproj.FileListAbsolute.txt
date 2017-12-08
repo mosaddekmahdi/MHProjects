@@ -1,0 +1,9 @@
+t:\users\mikeabyss\documents\visual studio 2010\Projects\IteratorPatternTutorial\IteratorPatternTutorial\bin\Debug\IteratorPatternTutorial.exe
+t:\users\mikeabyss\documents\visual studio 2010\Projects\IteratorPatternTutorial\IteratorPatternTutorial\bin\Debug\IteratorPatternTutorial.pdb
+t:\users\mikeabyss\documents\visual studio 2010\Projects\IteratorPatternTutorial\IteratorPatternTutorial\obj\x86\Debug\ResolveAssemblyReference.cache
+t:\users\mikeabyss\documents\visual studio 2010\Projects\IteratorPatternTutorial\IteratorPatternTutorial\obj\x86\Debug\IteratorPatternTutorial.exe
+t:\users\mikeabyss\documents\visual studio 2010\Projects\IteratorPatternTutorial\IteratorPatternTutorial\obj\x86\Debug\IteratorPatternTutorial.pdb
+C:\Users\mhossain2\Dropbox\Public\MyPrograms\MyCS\IteratorPatternTutorial\IteratorPatternTutorial\obj\x86\Debug\IteratorPatternTutorial.exe
+C:\Users\mhossain2\Dropbox\Public\MyPrograms\MyCS\IteratorPatternTutorial\IteratorPatternTutorial\obj\x86\Debug\IteratorPatternTutorial.pdb
+C:\Users\mhossain2\Dropbox\Public\MyPrograms\MyCS\IteratorPatternTutorial\IteratorPatternTutorial\bin\Debug\IteratorPatternTutorial.exe
+C:\Users\mhossain2\Dropbox\Public\MyPrograms\MyCS\IteratorPatternTutorial\IteratorPatternTutorial\bin\Debug\IteratorPatternTutorial.pdb

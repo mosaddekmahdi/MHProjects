@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/org/arpit/javapostforlearning/webservices/HelloWorld.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HelloWorldService.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HelloWorldServiceLocator.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HelloWorldSoapBindingStub.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HiThere.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HiThereService.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HiThereServiceLocator.java=UTF-8
+encoding//src/org/arpit/javapostforlearning/webservices/HiThereSoapBindingStub.java=UTF-8

@@ -1,0 +1,20 @@
+<people>
+  <person>
+    <name> Mokter </name>
+    <age>41</age>
+    <cell> 7755838088 </cell>
+    <email>mokter@ymail.com</email>
+  </person>
+  <person>
+    <name> Rahima </name>
+    <age> 35 </age>
+    <cell> 7755838090 </cell>
+    <email> rahimamokter@gmail.com </email>
+  </person>
+  <person>
+    <name> Mahdi </name>
+  </person>
+  <person>
+    <name> Munim </name>
+  </person>
+</people>

@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [30/Aug/2016:00:02:34 -0500] "GET /HelloWorldServletProject/yo HTTP/1.1" 404 205
+0:0:0:0:0:0:0:1 - - [30/Aug/2016:00:04:10 -0500] "GET /HelloWorldServletProject/yo HTTP/1.1" 404 205
+0:0:0:0:0:0:0:1 - - [30/Aug/2016:00:04:31 -0500] "GET /HelloWorldServletProject/yo HTTP/1.1" 404 205
+0:0:0:0:0:0:0:1 - - [30/Aug/2016:00:04:47 -0500] "GET /HelloWorldServletProject/ThisISNotYo HTTP/1.1" 404 205
+0:0:0:0:0:0:0:1 - - [30/Aug/2016:00:54:38 -0500] "GET /HelloWorldServletProject/ThisISNotYo HTTP/1.1" 404 205

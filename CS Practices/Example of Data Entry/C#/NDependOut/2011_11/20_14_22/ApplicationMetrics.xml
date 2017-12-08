@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ApplicationMetrics NAsm="2" NbSourceFiles="9" NbLinesOfCode="323" NbLinesOfComment="215" PercentageComment="39" NType="19" NClass="19" NAbstractClass="0" NInterface="0" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="4" NGenericTypesDefinition="1" NILInstruction="3323" NMethods="97" NFields="57" NNamespaces="5" NThirdPartyAssemblies="8" NThirdPartyNamespaces="26" NThirdPartyTypes="125" NThirdPartyMethods="155" NThirdPartyFields="6" PercentCodeCoverage="0" PercentPublicType="10.53" PercentPublicMethod="47.42" PercentClassWithAtLeastOnePublicField="0">
+  <PropertyOnInterface Occ="0" Avg="0" StdDev="0" MaxVal="-1" MaxName="" />
+  <MethodOnInterface Occ="0" Avg="0" StdDev="0" MaxVal="-1" MaxName="" />
+  <ArgOnMethodOnInterface Occ="0" Avg="0" StdDev="0" MaxVal="-1" MaxName="" />
+  <PublicPropertyOnClass Occ="19" Avg="0.63" StdDev="1.27" MaxVal="5" MaxName="PhoneBook.Person" />
+  <PublicMethodOnClass Occ="19" Avg="2.42" StdDev="3.31" MaxVal="11" MaxName="PhoneBook.Person" />
+  <ArgOnPublicMethodOnClass Occ="46" Avg="0.93" StdDev="1.33" MaxVal="5" MaxName="PhoneBook.FindPerson.DetailPerson(PhoneBookContext,Boolean,String,String,DataGridView)" />
+  <ILInstructionInNonAbstractMethods Occ="97" Avg="34.26" StdDev="113.5" MaxVal="985" MaxName="PhoneBook.FrmMain.InitializeComponent()" />
+  <TypeWithTheMostILInstruction Occ="19" Avg="174.89" StdDev="304.15" MaxVal="1277" MaxName="PhoneBook.FrmMain" />
+  <MethodCC Occ="97" Avg="2.49" StdDev="3.93" MaxVal="27" MaxName="PhoneBook.FindPerson.DetailPerson(PhoneBookContext,Boolean,String,String,DataGridView)" />
+</ApplicationMetrics>

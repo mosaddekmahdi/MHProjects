@@ -1,0 +1,10 @@
+C:\My Movies\MovieDB\MovieDB\bin\Debug\MovieDB.exe.config
+C:\My Movies\MovieDB\MovieDB\bin\Debug\MovieDB.exe
+C:\My Movies\MovieDB\MovieDB\bin\Debug\MovieDB.pdb
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\MovieDB.Form1.resources
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\MovieDB.Properties.Resources.resources
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\MovieDB.exe
+C:\My Movies\MovieDB\MovieDB\obj\x86\Debug\MovieDB.pdb

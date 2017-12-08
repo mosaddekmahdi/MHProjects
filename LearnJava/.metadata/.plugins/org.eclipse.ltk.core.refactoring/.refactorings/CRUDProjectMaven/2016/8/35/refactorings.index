@@ -1,0 +1,29 @@
+1472143180155	Delete element
+1472143216011	Delete element
+1472143328251	Move 'StudentController.java' to 'controller'
+1472145809306	Rename source folder 'src/main/resources'
+1472145827981	Move file
+1472145833874	Delete element
+1472146054284	Move 'StudentController.java' to 'controller'
+1472147856109	Rename resource 'com'
+1472147876766	Move 'StudentController.java' to 'com.junald.controller'
+1472147888419	Delete element
+1472147903033	Delete element
+1472147937888	Rename resource 'com'
+1472147945290	Delete element
+1472148109876	Delete element
+1472148123779	Move 'StudentController.java' to 'CRUDProjectMaven'
+1472148269824	Delete element
+1472148277725	Delete element
+1472148336130	Move 'StudentController.java' to 'defaul'
+1472148447315	Move 'StudentController.java' to 'CRUDProjectMaven'
+1472148453873	Delete element
+1472148498611	Move 'StudentController.java' to 'controller'
+1472148610357	Move 'StudentDAO.java' to 'dao'
+1472148676830	Move 'StudendDAOImplementation.java' to 'dao'
+1472148774836	Move 'Student.java' to 'model'
+1472148886134	Move 'DBUtil.java' to 'util'
+1472149231727	Rename resource 'StudendDAOImplementation.java'
+1472176873983	Move 'DB.properties' to 'CRUDProjectMaven'
+1472177198970	Rename resource 'DB.properties'
+1472256347348	Move 'error_page.jsp' to 'webapp'

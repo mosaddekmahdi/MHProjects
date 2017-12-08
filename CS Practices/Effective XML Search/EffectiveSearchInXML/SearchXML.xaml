@@ -1,0 +1,66 @@
+﻿<Window x:Class="EffectiveSearchInXML.SearchXML"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Search" Height="450" Width="500" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid Margin="10,10,10,10">
+        <Grid.Resources>
+            
+        </Grid.Resources>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" VerticalAlignment="Center">
+            <ComboBox Name="ddlTableType" Width="100" SelectionChanged="ddlTableType_SelectionChanged"/>
+            <ComboBox Name="ddlSearchCriteria" Width="150"/>
+        </StackPanel>
+        
+        <TextBlock Grid.Row="1" Grid.Column="0" Name="tbSearchKey" VerticalAlignment="Center" Text="Search Key"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Margin="10,0,0,0" VerticalAlignment="Center" VerticalContentAlignment="Center"
+                 Name="txtSearchKey" Text="Enter your search key."
+                 PreviewGotKeyboardFocus="txtSearchKey_PreviewGotKeyboardFocus" PreviewLostKeyboardFocus="txtSearchKey_PreviewLostKeyboardFocus">
+            <TextBox.Style>
+                <Style TargetType="{x:Type TextBox}">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding ElementName=txtSearchKey, Path=Text}" Value="Enter your search key.">
+                            <Setter Property="Foreground" Value="LightGray"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBox.Style>
+        </TextBox>
+
+        <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Orientation="Horizontal" HorizontalAlignment="Right">
+        <Button Name="btnSearch" Content="Search" Click="btnSearch_Click"/>
+        <Button Name="btnSearchAnyXML" Content="Switch" Click="btnSearchAnyXML_Click"/>
+</StackPanel>
+        
+        <DataGrid Grid.Row="3" 
+                  Grid.Column="0"
+                  Grid.ColumnSpan="2"
+                  Margin="0,10,0,0"
+                  Name="dgSearchResults"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="False"
+                  AlternatingRowBackground="AntiqueWhite"
+                  AutoGenerateColumns="True"
+                  IsReadOnly="True"
+                  ColumnHeaderHeight="30"
+                  >
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridCell}">
+                    <Setter Property="Height" Value="25"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </DataGrid.Resources>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<students>
+
+  <student>
+    <name> Mosaddesk Hossain </name>
+    <age> 8 </age>
+    <gender> Male </gender>
+    <address> 1105 niversity Plaza </address>
+    <phone> 614-445-5678 </phone>
+    <email> Mosaddesk@gmail.com </email>
+  </student>
+  <student>
+    <name> Hossain </name>
+    <age> 6 </age>
+    <gender> Male </gender>
+    <address> 1105 niversity Plaza </address>
+    <phone> 614-555-5678 </phone>
+    <email> hossain@gmail.com </email>
+  </student>
+  <student>
+    <name> Munim </name>
+    <age> 4 </age>
+    <gender> Male </gender>
+    <address> 1105 niversity Plaza </address>
+    <phone> 614-666-5678 </phone>
+    <email> Munim@gmail.com </email>
+  </student>
+
+</students>

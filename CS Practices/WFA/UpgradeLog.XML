@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WFADataGridWithContextMenu">
+</Property><Property Name="Solution File" Value="C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\WFADataGridWithContextMenu.sln">
+</Property><Property Name="User Options File" Value="C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\WFADataGridWithContextMenu.suo">
+</Property><Property Name="Date" Value="Tuesday, November 13, 2012">
+</Property><Property Name="Time" Value="0:23 AM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WFADataGridWithContextMenu.sln" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WFADataGridWithContextMenu.suo" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu.suo">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\WFADataGridWithContextMenu.csproj" Description="Project file successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\WFADataGridWithContextMenu.csproj">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Form1.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Form1.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Form1.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Program.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Program.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Properties\Settings.settings" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Form1.resx" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Form1.resx">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\Properties\Resources.resx" Description="File successfully backed up as C:\Users\mhossain2\Dropbox\Public\MyVisualStudio\WFA\Backup\WFADataGridWithContextMenu\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\WFADataGridWithContextMenu.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\WFADataGridWithContextMenu.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WFADataGridWithContextMenu.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WFADataGridWithContextMenu.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="WFADataGridWithContextMenu" Source="WFADataGridWithContextMenu\WFADataGridWithContextMenu.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

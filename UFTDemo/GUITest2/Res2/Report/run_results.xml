@@ -1,0 +1,305 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>"email"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[email]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>caf22a72536447a381adcd0c5a19794b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"email"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;type=email&lt;br&gt;name=email&lt;br&gt;micclass=WebEdit&lt;br&gt;html tag=INPUT&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (5 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+type=text&lt;br&gt;micclass=WebEdit&lt;br&gt;html tag=INPUT&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+name=email&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;html id=email&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;max length=524288&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;default value=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;class=inputtext&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;rows=0&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 4 matches)&lt;/SPAN&gt;&lt;br&gt;placeholder=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[email]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>type=email<br>name=email<br>micclass=WebEdit<br>html tag=INPUT<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (5 objects found)&nbsp;</FONT></u><br>
+type=text<br>micclass=WebEdit<br>html tag=INPUT<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+name=email<SPAN class=Failed> (Skipped)</SPAN><br>html id=email<SPAN class=Failed> (Skipped)</SPAN><br>max length=524288<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>default value=<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>class=inputtext<SPAN class=Failed> (Skipped)</SPAN><br>rows=0<SPAN class=passed> (Used</SPAN>, 4 matches)</SPAN><br>placeholder=<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>b0bceb9bf48e405098578db806505fb4</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Facebook - Log In or Sign</Name>
+    <Description>Page</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>b4bb3d3341424f599c1afe914e9e381b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Facebook - Log In or Sign</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Duration>0</Duration>
+    <Result>Warning</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>fd1beff0efc34106958afcf962c271ef</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Step">
+<Data>
+    <Name>email</Name>
+    <ErrorText>Object is disabled</ErrorText>
+    <Description>Object&amp;nbsp;is&amp;nbsp;disabled&lt;br/&gt;&lt;br/&gt;Object's physical description:&lt;br&gt;Type = email&lt;br&gt;Mercury Class = WebEdit&lt;br&gt;Html Tag = INPUT&lt;br&gt;_xpath = //INPUT[@id="email"]&lt;br&gt;|rows = 0&lt;br&gt;placeholder = &lt;br&gt;Name = email&lt;br&gt;Max Length = 524288&lt;br&gt;Html Id = email&lt;br&gt;default value = &lt;br&gt;DHTML Class = inputtext&lt;br&gt;acc_name = &lt;br&gt;</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[email]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Object&nbsp;is&nbsp;disabled]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[email]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>caf22a72536447a381adcd0c5a19794b</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <NodeType>Run Error</NodeType>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\d068ac53-242a-4d18-b6fb-5012fdd27daf.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2016-11-19 08:59:51</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>19ca5d70b63f42018f9df6bbee5f5aed</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Facebook - Log In or Sign</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2016-11-19 08:59:42</StartTime>
+    <Duration>9</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Facebook - Log In or Sign]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>fd1beff0efc34106958afcf962c271ef</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2016-11-19 08:59:21</StartTime>
+    <Duration>30</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>6ede9ed160ab43bd90c7f531ebad86bf</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2016-11-19 08:59:13</StartTime>
+    <Duration>39</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>df427f951d6249d4bdedcfb7b8c1b1b7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Google Chrome</Name>
+        <Path>C:\Program Files (x86)\Google\Chrome\Application\chrome.exe</Path>
+        <Version>54.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://www.facebook.com</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest2</Name>
+    <ToolName>HP Unified Functional Testing</ToolName>
+    <ToolVersion>12.54</ToolVersion>
+    <Description />
+    <StartTime>2016-11-19 08:59:11</StartTime>
+    <Duration>41</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>392c69447b5f4ae1b248f747ef2c028d</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>-08:00:00</Timezone>
+      <Locale>English (United States)</Locale>
+      <User>zahid</User>
+      <CpuInfo>Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz</CpuInfo>
+      <NumberOfCores>4</NumberOfCores>
+      <TotalMemory>3970</TotalMemory>
+      <HostName>LAPTOP-VE86FS4A</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xls" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res2</ResultName>
+    <RunStartTime>2016-11-19 08:59:11</RunStartTime>
+    <Timezone>-08:00:00</Timezone>
+    <OrchestrationToolName>HP Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>12.54</OrchestrationToolVersion>
+  </GeneralInfo>
+</Results>

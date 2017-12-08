@@ -1,0 +1,16 @@
+bin\Debug\DCarS.exe
+bin\Debug\DCarS.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\DCarS.Form1.resources
+obj\Debug\DCarS.Properties.Resources.resources
+obj\Debug\DCarS.csproj.GenerateResource.Cache
+obj\Debug\DCarS.exe
+obj\Debug\DCarS.pdb
+obj\Debug\DCarS.Rules.resources
+obj\Debug\DCarS.StateLaws.resources
+obj\Debug\DCarS.DCarSTest.resources
+obj\Debug\DCarS.QuestionAnswer.resources
+obj\Debug\DCarS.Nevada.resources
+obj\Debug\DCarS.California.resources
+obj\Debug\DCarS.New_York.resources
+obj\Debug\DCarS.Texas.resources

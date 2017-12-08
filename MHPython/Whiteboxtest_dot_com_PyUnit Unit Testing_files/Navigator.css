@@ -1,0 +1,143 @@
+/****  tab_middle ****/
+
+ul.rvnavigator {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	z-index:99;
+}
+ 
+ul.rvnavigator li{
+	margin: 0px;
+	padding: 0px;
+	color: #494949;
+	text-align: left;
+	display:inline; 
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	float:left;
+	position: relative;
+} 
+ul.rvnavigator li a {text-decoration: none;  white-space:nowrap;}
+
+ul.rvnavigator a{
+	padding: 10px 12px 9px 12px;
+	color: #494949;
+	border-right: 1px solid #E6E4D8;
+	display:block;
+}
+ul.rvnavigator li a:hover{
+	background-color: #99978B;
+	color: #E6E4D8;
+}
+ul.rvnavigator a.current{
+	background-color: #99978B;
+	color: #E6E4D8;
+	padding: 10px 12px 9px 12px;
+	border-right: 1px solid #E6E4D8;
+	display:block;
+}
+
+
+/*  css for submenu */
+
+
+ul.rvnavigator ul {
+	left: 0px; 
+	top: 100%;
+	display: none; /*visibility: hidden;*/
+	position: absolute;
+	padding:0px; /* Change */
+	z-index:25;
+	width: auto; 
+	margin: 0;
+	list-style: none;
+	
+	border: #BAB8A9 1px solid; /*subframe*/
+	background-color: #DBD9C7;
+	text-indent: 0px; /* Change */
+	cursor:pointer;
+}
+ul.rvnavigator ul ul{
+	width: 150px; /* Sub Menu Width */ 
+	word-wrap: break-word;
+	top: 0; 
+	left: 100%; 
+	background-color: #DBD9C7; 
+}
+ul.rvnavigator ul li {
+	word-wrap: break-word;
+	text-align: left;
+	border-bottom: 1px solid #99978B;
+	margin: 0px;
+	padding: 0px;
+	width:150px;
+	background-image:none;
+}
+
+/* 1st Submenu */
+ul.rvnavigator li:hover li a {
+	white-space:normal;
+	 
+	color: #494949;   
+	text-decoration: none;
+	position: relative;
+	display:block;
+	padding:3px;
+}
+/* 1st Submenu Hover  */
+ul.rvnavigator li:hover li a:hover {
+	
+	color: #6A642D;
+	text-decoration:none; 
+	background-color:#99978B;
+	position: relative;
+	display:block;
+	padding:3px;
+}
+/* 2nd Submenu */
+ul.rvnavigator li:hover li:hover li a {
+	 
+	color: #494949;   
+	text-decoration: none;
+	position: relative;
+	display:block;
+	padding:3px;
+}
+/* 2nd Submenu Hover  */
+ul.rvnavigator li:hover li:hover li a:hover{
+	 
+	color: #6A642D; 
+	text-decoration:none; 
+	background-color:#99978B;
+	position: relative;
+	display:block;
+	padding:3px;
+}
+/* Hover Function - Do Not Move */
+ul.rvnavigator li:hover ul ul,ul.rvnavigator li:hover ul ul ul {
+	 display: none; 
+ }
+ul.rvnavigator li:hover ul,ul.rvnavigator ul li:hover ul,ul.rvnavigator ul ul li:hover ul { 
+	display: block; 
+}
+.rvarrowsubmenu{ 
+	float:right;
+	padding-left:5px; 
+}
+ul.rvnavigator li:hover li a.arrowOne {
+	background-image:url(images/gold_arrow.gif); 
+	background-position:right bottom; 
+	background-repeat:no-repeat;
+}
+ul.rvnavigator li:hover li a.arrowsubOne {
+	background-image:url(images/gold_linkarrow.gif); 
+	background-position:right center; 
+	background-repeat:no-repeat;
+}
+.item .fwdarr {
+	right: 7px;
+	top: 5px; 
+	position: absolute;	
+}

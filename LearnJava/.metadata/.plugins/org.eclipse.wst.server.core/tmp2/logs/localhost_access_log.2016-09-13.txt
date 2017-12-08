@@ -1,0 +1,4 @@
+127.0.0.1 - - [13/Sep/2016:23:53:48 -0500] "GET / HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [13/Sep/2016:23:54:06 -0500] "GET /messenger/webapi/messages/1 HTTP/1.1" 200 51
+127.0.0.1 - - [13/Sep/2016:23:56:13 -0500] "GET / HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [13/Sep/2016:23:56:13 -0500] "GET /messenger/WEB-INF/classes/org/koushik/javabrains/messenger/resources/MessageResource.java HTTP/1.1" 404 949

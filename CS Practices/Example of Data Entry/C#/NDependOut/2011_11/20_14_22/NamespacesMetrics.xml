@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<NamespacesMetrics>
+  <Namespace Namespace="PhoneBook" NTypes="5" NILInstruction="1914" NbLinesOfCode="255" NbLinesOfComment="158" PercentageComment="38" PercentageCoverage="-" AfferentCoupling="0" EfferentCoupling="11" />
+  <Namespace Namespace="PhoneBook.Properties" NTypes="2" NILInstruction="54" NbLinesOfCode="9" NbLinesOfComment="14" PercentageComment="60" PercentageCoverage="-" AfferentCoupling="0" EfferentCoupling="9" />
+  <Namespace Namespace="PhoneBook.Vb" NTypes="1" NILInstruction="160" NbLinesOfCode="14" NbLinesOfComment="-" PercentageComment="-" PercentageCoverage="-" AfferentCoupling="1" EfferentCoupling="8" />
+  <Namespace Namespace="PhoneBook.Vb.My" NTypes="10" NILInstruction="1163" NbLinesOfCode="32" NbLinesOfComment="-" PercentageComment="-" PercentageCoverage="-" AfferentCoupling="0" EfferentCoupling="21" />
+  <Namespace Namespace="PhoneBook.Vb.My.Resources" NTypes="1" NILInstruction="32" NbLinesOfCode="13" NbLinesOfComment="-" PercentageComment="-" PercentageCoverage="-" AfferentCoupling="0" EfferentCoupling="10" />
+</NamespacesMetrics>
